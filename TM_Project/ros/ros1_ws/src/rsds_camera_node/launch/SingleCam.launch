@@ -1,0 +1,29 @@
+<launch>
+
+<arg doc="Movie startup delay factor for multiple instances"
+     name="delay_factor" default="1.25"/>
+
+<arg doc="Launch rqt with custom perspective"
+     name="start_rqt" default="true"/>
+
+<arg doc="Name of Camera 1 for ROS topic"
+     name="camera_name_1" default="front_camera_rgb"/>
+
+<arg doc="Custom rqt perspective file"
+     name="perspective"
+     default="$(find rsds_camera_node)/launch/SingleCam.perspective"/>
+
+
+<include file="$(find rsds_camera_node)/launch/rsds_camera_node.launch">
+  <arg name="camera_name" default="$(arg camera_name_1)"/>
+  <arg name="rsds_config" default="0"/>
+  <arg name="delay_factor" default="$(arg delay_factor)"/>
+  <arg name="param_trans_rot" default="[5, 0, 2.44, 0, 0, 0]"/>
+  <arg name="width" default="720"/>
+  <arg name="height" default="400"/>
+  <arg name="fov_deg" default="90"/>
+  <arg name="start_movie" default="false"/>
+  <arg name="start_rqt_image_view" default="false"/>
+  </include>
+
+</launch>

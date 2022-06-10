@@ -1,0 +1,41 @@
+#INFOFILE1.1 - Do not remove this line!
+FileIdent = CarMaker-Tire-RTTire 3
+FileCreator = tireutil v6.0.1, 2017-09-13, 09:21:45 by (null)
+CreateArgs = -if Data/Tire/ExamplesTM/RT_245_70R19.5_p7.50 SINGLE.tdx -of Data/Tire/ExamplesTM/RT_245_70R19.5_p7.50 SINGLE 
+
+Description:
+	Created with IPG Tire Data Set Generator - Version Date: 2017-04-28
+	Generated - not validated - Tire data
+	Based on 'RT_245_70R19.5_p7.50 SINGLE.tdx'
+	""
+	#   Load:      32 points [ 0 N  to  20500 N ]
+	#   Slip:     128 points [ -0.15   to  0.15 ]
+	#   Alpha:    128 points [ -12 deg  to  12 deg ]
+
+Side = left
+muRoad = 1
+
+Radial.Stiffness = 726894
+Radial.Damping = 11294.7
+
+KinRollRadius = 0.407
+NomRadius = 0.419
+NomWidth = 0.245
+AspectRatio = 0.7
+
+FLoadMax = 16400
+
+LongFrc.Length = 0.1
+SideFrc.Length = 0.5
+AlignTrq.Length = 0.5
+
+StandStill.cLong = 0.01
+StandStill.cSide = 0.2
+StandStill.cAlign = 0.2
+
+
+RollResist.Kind = TrqLoad
+RollResist.Factor = 0.0102
+
+BinFName = RT_245_70R19.5_p7.50 SINGLE.bin
+

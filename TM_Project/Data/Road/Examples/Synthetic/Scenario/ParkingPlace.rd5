@@ -1,0 +1,1579 @@
+#INFOFILE1.1 - Do not remove this line!
+FileIdent = IPGRoad 10.0
+FileCreator = TruckMaker 10.0
+LibVersion = 10.0
+Country = DEU DEU
+nLinks = 6
+nJunctions = 4
+nObjects = 1130
+nRoutes = 4
+RoadNetworkLength = 1053.6229459697
+BBox = -180.464766597201 126.48733246524 -166.957753119208 31.5 -12 28.94
+Route.0.Length = 191.215904625913
+Route.1.Length = 902.421729565592
+Route.2.Length = 713.470893623613
+Route.3.Length = 713.470893623613
+RST.Unit = kmh
+RST = 50 100 -1 30 70 50 -1 -1
+Movie = 0.2 0.2 0.001 1 1 1 1
+Movie.TerrainFName = 3D/Terrain/ParkingPlace.obj
+PathMode = -1
+Junction.0.ID = 1
+Junction.0.Type = Standard
+Junction.0.Knot = 0 12 3
+Junction.0.RST = Urban
+Junction.0.Arm.0.ID = 822 12603
+Junction.0.Arm.0 = 4 0.15 0 41 1
+Junction.0.Arm.1.ID = 10996 12605
+Junction.0.Arm.1 = 4 0.15 0 41 0
+Junction.0.Arm.2.ID = 10997 12607
+Junction.0.Arm.2 = 6 0.15 0 168 1
+Junction.0.MainArms = 0 1
+Junction.0.RL.0.ID = 11407
+Junction.0.RL.0 = 3.99999999999999 0 180 0 -4 0 180 0
+Junction.0.RL.0.RefObject = 822 10996
+Junction.0.RL.0.Seg.0.ID = 11408
+Junction.0.RL.0.Seg.0.Type = Connect
+Junction.0.RL.0.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.0.RL.1.ID = 11409
+Junction.0.RL.1 = 3.99999999999999 0 180 0 0 -6 270 0
+Junction.0.RL.1.RefObject = 822 10997
+Junction.0.RL.1.Seg.0.ID = 11410
+Junction.0.RL.1.Seg.0.Type = Connect
+Junction.0.RL.1.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.0.RL.2.ID = 11411
+Junction.0.RL.2 = -4 0 0 0 0 -6 270 0
+Junction.0.RL.2.RefObject = 10996 10997
+Junction.0.RL.2.Seg.0.ID = 11412
+Junction.0.RL.2.Seg.0.Type = Connect
+Junction.0.RL.2.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.0.RL.3.ID = 325
+Junction.0.RL.3 = -4 6.5 0 0 3.99999999999999 6.50000000000001 0 0
+Junction.0.RL.3.RefObject = 11721 11802
+Junction.0.RL.3.Seg.0.ID = 326
+Junction.0.RL.3.Seg.0.Type = Connect
+Junction.0.RL.3.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.0.RL.4.ID = 331
+Junction.0.RL.4 = 2.5 -6 90 0 3.99999999999999 -3.49999999999999 0 0
+Junction.0.RL.4.RefObject = 12048 11782
+Junction.0.RL.4.Seg.0.ID = 332
+Junction.0.RL.4.Seg.0.Type = Connect
+Junction.0.RL.4.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.0.RL.5.ID = 334
+Junction.0.RL.5 = -2.5 -6 90 0 -4 -3.5 180 0
+Junction.0.RL.5.RefObject = 12034 11695
+Junction.0.RL.5.Seg.0.ID = 335
+Junction.0.RL.5.Seg.0.Type = Connect
+Junction.0.RL.5.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.0.RL.6.ID = 12337
+Junction.0.RL.6 = 1.25 -6 90 0 -4 4.75 180 0
+Junction.0.RL.6.RefObject = 224 568
+Junction.0.RL.6.Seg.0.ID = 12338
+Junction.0.RL.6.Seg.0.Type = Connect
+Junction.0.RL.6.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.0.RL.7.ID = 12339
+Junction.0.RL.7 = -4 -1.75 0 0 -1.25 -6 270 0
+Junction.0.RL.7.RefObject = 0 184
+Junction.0.RL.7.Seg.0.ID = 12340
+Junction.0.RL.7.Seg.0.Type = Connect
+Junction.0.RL.7.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.0.RL.8.ID = 12341
+Junction.0.RL.8 = -4 -1.75 0 0 3.99999999999999 -1.74999999999999 0 0
+Junction.0.RL.8.RefObject = 0 203
+Junction.0.RL.8.Seg.0.ID = 12342
+Junction.0.RL.8.Seg.0.Type = Connect
+Junction.0.RL.8.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.0.RL.9.ID = 12343
+Junction.0.RL.9 = 1.25 -6 90 0 3.99999999999999 -1.74999999999999 0 0
+Junction.0.RL.9.RefObject = 224 203
+Junction.0.RL.9.Seg.0.ID = 12344
+Junction.0.RL.9.Seg.0.Type = Connect
+Junction.0.RL.9.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.0.RL.10.ID = 12345
+Junction.0.RL.10 = 3.99999999999999 1.50000000000001 180 0 -1.25 -6 270 0
+Junction.0.RL.10.RefObject = 384 184
+Junction.0.RL.10.Seg.0.ID = 12346
+Junction.0.RL.10.Seg.0.Type = Connect
+Junction.0.RL.10.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.0.RL.11.ID = 12347
+Junction.0.RL.11 = 3.99999999999999 1.50000000000001 180 0 -4 1.5 180 0
+Junction.0.RL.11.RefObject = 384 401
+Junction.0.RL.11.Seg.0.ID = 12348
+Junction.0.RL.11.Seg.0.Type = Connect
+Junction.0.RL.11.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.0.RL.12.ID = 12349
+Junction.0.RL.12 = 3.99999999999999 4.75000000000001 180 0 -4 4.75 180 0
+Junction.0.RL.12.RefObject = 403 568
+Junction.0.RL.12.Seg.0.ID = 12350
+Junction.0.RL.12.Seg.0.Type = Connect
+Junction.0.RL.12.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.0.RL.13.ID = 12351
+Junction.0.RL.13 = 3.99999999999999 1.50000000000001 180 0 -4 4.75 180 0
+Junction.0.RL.13.RefObject = 384 568
+Junction.0.RL.13.Seg.0.ID = 12352
+Junction.0.RL.13.Seg.0.Type = Connect
+Junction.0.RL.13.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.0.RL.14.ID = 12353
+Junction.0.RL.14 = 3.99999999999999 4.75000000000001 180 0 -4 1.5 180 0
+Junction.0.RL.14.RefObject = 403 401
+Junction.0.RL.14.Seg.0.ID = 12354
+Junction.0.RL.14.Seg.0.Type = Connect
+Junction.0.RL.14.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.0.RL.15.ID = 12355
+Junction.0.RL.15 = 3.99999999999999 4.75000000000001 180 0 -1.25 -6 270 0
+Junction.0.RL.15.RefObject = 403 184
+Junction.0.RL.15.Seg.0.ID = 12356
+Junction.0.RL.15.Seg.0.Type = Connect
+Junction.0.RL.15.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.0.RL.16.ID = 12603
+Junction.0.RL.16 = 3.99999999999999 7.00000000000001 180 0 -4 7 180 0
+Junction.0.RL.16.RefObject = -1 -1
+Junction.0.RL.16.Seg.0.ID = 12604
+Junction.0.RL.16.Seg.0.Type = Connect
+Junction.0.RL.16.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.0.RL.17.ID = 12605
+Junction.0.RL.17 = -4 -4 0 0 -3 -6 270 0
+Junction.0.RL.17.RefObject = -1 -1
+Junction.0.RL.17.Seg.0.ID = 12606
+Junction.0.RL.17.Seg.0.Type = Connect
+Junction.0.RL.17.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.0.RL.18.ID = 12607
+Junction.0.RL.18 = 3 -6 90 0 3.99999999999999 -3.99999999999999 0 0
+Junction.0.RL.18.RefObject = -1 -1
+Junction.0.RL.18.Seg.0.ID = 12608
+Junction.0.RL.18.Seg.0.Type = Connect
+Junction.0.RL.18.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.1.ID = 4
+Junction.1.Type = Standard
+Junction.1.Knot = 0 -14 2.5
+Junction.1.RST = Roundabout
+Junction.1.Arm.0.ID = 825 12609
+Junction.1.Arm.0 = 4 0.15 0 17 0
+Junction.1.Arm.1.ID = 10998 12611
+Junction.1.Arm.1 = 4 0.15 0 168 0
+Junction.1.Arm.2.ID = 10999 12613
+Junction.1.Arm.2 = 4 0.15 0 241 0
+Junction.1.MainArms = 1 2
+Junction.1.RL.0.ID = 633
+Junction.1.RL.0 = -2.5 4 270 0 -4.5 -4 270 0
+Junction.1.RL.0.RefObject = 12031 12087
+Junction.1.RL.0.Seg.0.ID = 793
+Junction.1.RL.0.Seg.0.Type = Connect
+Junction.1.RL.0.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.1.RL.1.ID = 807
+Junction.1.RL.1 = 2.5 -4 90 0 4 -2.5 0 0
+Junction.1.RL.1.RefObject = 12067 11823
+Junction.1.RL.1.Seg.0.ID = 808
+Junction.1.RL.1.Seg.0.Type = Connect
+Junction.1.RL.1.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.1.RL.2.ID = 810
+Junction.1.RL.2 = 2.5 4 270 0 4 2.5 0 0
+Junction.1.RL.2.RefObject = 12045 11809
+Junction.1.RL.2.Seg.0.ID = 811
+Junction.1.RL.2.Seg.0.Type = Connect
+Junction.1.RL.2.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.1.RL.3.ID = 11
+Junction.1.RL.3 = -2.5 4 270 0 -2.5 -4 270 0
+Junction.1.RL.3.RefObject = 12031 12081
+Junction.1.RL.3.Seg.0.ID = 12
+Junction.1.RL.3.Seg.0.Type = Connect
+Junction.1.RL.3.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.1.RL.4.ID = 11413
+Junction.1.RL.4 = 4 0 180 0 0 4 90 0
+Junction.1.RL.4.RefObject = 825 10998
+Junction.1.RL.4.Seg.0.ID = 11414
+Junction.1.RL.4.Seg.0.Type = Connect
+Junction.1.RL.4.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.1.RL.5.ID = 11415
+Junction.1.RL.5 = 4 0 180 0 0 -4 270 0
+Junction.1.RL.5.RefObject = 825 10999
+Junction.1.RL.5.Seg.0.ID = 11416
+Junction.1.RL.5.Seg.0.Type = Connect
+Junction.1.RL.5.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.1.RL.6.ID = 11417
+Junction.1.RL.6 = 0 4 270 0 0 -4 270 0
+Junction.1.RL.6.RefObject = 10998 10999
+Junction.1.RL.6.Seg.0.ID = 11418
+Junction.1.RL.6.Seg.0.Type = Connect
+Junction.1.RL.6.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.1.RL.7.ID = 129
+Junction.1.RL.7 = 2.5 -4 90 0 4 -2.5 0 0
+Junction.1.RL.7.RefObject = 12067 11823
+Junction.1.RL.7.Seg.0.ID = 135
+Junction.1.RL.7.Seg.0.Type = Connect
+Junction.1.RL.7.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.1.RL.8.ID = 12357
+Junction.1.RL.8 = 1.25 -4 90 0 1.25 4 90 0
+Junction.1.RL.8.RefObject = 257 224
+Junction.1.RL.8.Seg.0.ID = 12358
+Junction.1.RL.8.Seg.0.Type = Connect
+Junction.1.RL.8.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.1.RL.9.ID = 12359
+Junction.1.RL.9 = 4 1.25 180 0 -1.25 -4 270 0
+Junction.1.RL.9.RefObject = 35 283
+Junction.1.RL.9.Seg.0.ID = 12360
+Junction.1.RL.9.Seg.0.Type = Connect
+Junction.1.RL.9.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.1.RL.10.ID = 12361
+Junction.1.RL.10 = -1.25 4 270 0 -1.25 -4 270 0
+Junction.1.RL.10.RefObject = 184 283
+Junction.1.RL.10.Seg.0.ID = 12362
+Junction.1.RL.10.Seg.0.Type = Connect
+Junction.1.RL.10.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.1.RL.11.ID = 12363
+Junction.1.RL.11 = -1.25 4 270 0 4 -1.25 0 0
+Junction.1.RL.11.RefObject = 184 87
+Junction.1.RL.11.Seg.0.ID = 12364
+Junction.1.RL.11.Seg.0.Type = Connect
+Junction.1.RL.11.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.1.RL.12.ID = 12365
+Junction.1.RL.12 = 1.25 -4 90 0 4 -1.25 0 0
+Junction.1.RL.12.RefObject = 257 87
+Junction.1.RL.12.Seg.0.ID = 12366
+Junction.1.RL.12.Seg.0.Type = Connect
+Junction.1.RL.12.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.1.RL.13.ID = 12367
+Junction.1.RL.13 = 4 1.25 180 0 1.25 4 90 0
+Junction.1.RL.13.RefObject = 35 224
+Junction.1.RL.13.Seg.0.ID = 12368
+Junction.1.RL.13.Seg.0.Type = Connect
+Junction.1.RL.13.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.1.RL.14.ID = 12609
+Junction.1.RL.14 = 4 3 180 0 3 4 90 0
+Junction.1.RL.14.RefObject = -1 -1
+Junction.1.RL.14.Seg.0.ID = 12610
+Junction.1.RL.14.Seg.0.Type = Connect
+Junction.1.RL.14.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.1.RL.15.ID = 12611
+Junction.1.RL.15 = -3 4 270 0 -5 -4 270 0
+Junction.1.RL.15.RefObject = -1 -1
+Junction.1.RL.15.Seg.0.ID = 12612
+Junction.1.RL.15.Seg.0.Type = Connect
+Junction.1.RL.15.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.1.RL.16.ID = 12613
+Junction.1.RL.16 = 3 -4 90 0 4 -3 0 0
+Junction.1.RL.16.RefObject = -1 -1
+Junction.1.RL.16.Seg.0.ID = 12614
+Junction.1.RL.16.Seg.0.Type = Connect
+Junction.1.RL.16.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.2.ID = 158
+Junction.2.Type = Standard
+Junction.2.Knot = 0 -36.6 2.5
+Junction.2.RST = Roundabout
+Junction.2.Arm.0.ID = 828 12621
+Junction.2.Arm.0 = 4 0.15 0 17 1
+Junction.2.Arm.1.ID = 11000 12623
+Junction.2.Arm.1 = 4 0.15 0 241 1
+Junction.2.Arm.2.ID = 11001 12625
+Junction.2.Arm.2 = 5 0.15 0 447 1
+Junction.2.MainArms = 1 0
+Junction.2.RL.0.ID = 801
+Junction.2.RL.0 = -2.5 4 270 0 4 -2.5 0 0
+Junction.2.RL.0.RefObject = 12084 12010
+Junction.2.RL.0.Seg.0.ID = 802
+Junction.2.RL.0.Seg.0.Type = Connect
+Junction.2.RL.0.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.2.RL.1.ID = 804
+Junction.2.RL.1 = 2.5 4 270 0 4 2.5 0 0
+Junction.2.RL.1.RefObject = 12070 12024
+Junction.2.RL.1.Seg.0.ID = 805
+Junction.2.RL.1.Seg.0.Type = Connect
+Junction.2.RL.1.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.2.RL.2.ID = 11419
+Junction.2.RL.2 = 4 0 180 0 0 4 90 0
+Junction.2.RL.2.RefObject = 828 11000
+Junction.2.RL.2.Seg.0.ID = 11420
+Junction.2.RL.2.Seg.0.Type = Connect
+Junction.2.RL.2.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.2.RL.3.ID = 11421
+Junction.2.RL.3 = 4 0 180 0 -3.60555707761783 -3.63711945571944 223.162821859926 0
+Junction.2.RL.3.RefObject = 828 11001
+Junction.2.RL.3.Seg.0.ID = 11422
+Junction.2.RL.3.Seg.0.Type = Connect
+Junction.2.RL.3.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.2.RL.4.ID = 11423
+Junction.2.RL.4 = 0 4 270 0 -3.60555707761783 -3.63711945571944 223.162821859926 0
+Junction.2.RL.4.RefObject = 11000 11001
+Junction.2.RL.4.Seg.0.ID = 11424
+Junction.2.RL.4.Seg.0.Type = Connect
+Junction.2.RL.4.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.2.RL.5.ID = 12369
+Junction.2.RL.5 = -1.25 4 270 0 4 -1.25 0 0
+Junction.2.RL.5.RefObject = 283 643
+Junction.2.RL.5.Seg.0.ID = 12370
+Junction.2.RL.5.Seg.0.Type = Connect
+Junction.2.RL.5.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.2.RL.6.ID = 12371
+Junction.2.RL.6 = 4 1.25 180 0 1.25 4 90 0
+Junction.2.RL.6.RefObject = 4068 257
+Junction.2.RL.6.Seg.0.ID = 12372
+Junction.2.RL.6.Seg.0.Type = Connect
+Junction.2.RL.6.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.2.RL.7.ID = 12373
+Junction.2.RL.7 = -3.5 4 270 0 -4.4606495126058 -2.72535362633869 223.162821859926 0
+Junction.2.RL.7.RefObject = 4074 411
+Junction.2.RL.7.Seg.0.ID = 12374
+Junction.2.RL.7.Seg.0.Type = Connect
+Junction.2.RL.7.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.2.RL.8.ID = 12621
+Junction.2.RL.8 = 4 3 180 0 3 4 90 0
+Junction.2.RL.8.RefObject = -1 -1
+Junction.2.RL.8.Seg.0.ID = 12622
+Junction.2.RL.8.Seg.0.Type = Connect
+Junction.2.RL.8.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.2.RL.9.ID = 12623
+Junction.2.RL.9 = -5 4 270 0 -5.31574194759377 -1.81358779695795 223.162821859926 0
+Junction.2.RL.9.RefObject = -1 -1
+Junction.2.RL.9.Seg.0.ID = 12624
+Junction.2.RL.9.Seg.0.Type = Connect
+Junction.2.RL.9.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.2.RL.10.ID = 12625
+Junction.2.RL.10 = -3.60555707761783 -3.63711945571944 43.1628218599265 0 4 -3 0 0
+Junction.2.RL.10.RefObject = -1 -1
+Junction.2.RL.10.Seg.0.ID = 12626
+Junction.2.RL.10.Seg.0.Type = Connect
+Junction.2.RL.10.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.3.ID = 37
+Junction.3.Type = Standard
+Junction.3.Knot = -16 -44 4.2
+Junction.3.RST = Roundabout
+Junction.3.Arm.0.ID = 831 12615
+Junction.3.Arm.0 = 2.5 0.15 0 447 0
+Junction.3.Arm.0.Material.0 = Textures/Ground/Pavement_01.mtex 0 0 0 0 1 1 1 1 0 0 0
+Junction.3.Arm.1.ID = 11002 12617
+Junction.3.Arm.1 = 7 0.15 0 414 1
+Junction.3.Arm.1.Material.0 = Textures/Ground/Pavement_01.mtex 0 0 0 0 1 1 1 1 0 0 0
+Junction.3.Arm.2.ID = 11003 12619
+Junction.3.Arm.2 = 7 0.15 0 414 0
+Junction.3.Arm.2.Material.0 = Textures/Ground/Pavement_01.mtex 0 0 0 0 1 1 1 1 0 0 0
+Junction.3.MainArms = 2 0
+Junction.3.RL.0.ID = 11425
+Junction.3.RL.0 = 2.5 0 180 0 0 7.00000000000001 90 0
+Junction.3.RL.0.RefObject = 831 11002
+Junction.3.RL.0.Seg.0.ID = 11426
+Junction.3.RL.0.Seg.0.Type = Connect
+Junction.3.RL.0.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.3.RL.1.ID = 11427
+Junction.3.RL.1 = 2.5 0 180 0 -7 0 180 0
+Junction.3.RL.1.RefObject = 831 11003
+Junction.3.RL.1.Seg.0.ID = 11428
+Junction.3.RL.1.Seg.0.Type = Connect
+Junction.3.RL.1.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.3.RL.2.ID = 11429
+Junction.3.RL.2 = 0 7.00000000000001 270 0 -7 0 180 0
+Junction.3.RL.2.RefObject = 11002 11003
+Junction.3.RL.2.Seg.0.ID = 11430
+Junction.3.RL.2.Seg.0.Type = Connect
+Junction.3.RL.2.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.3.RL.3.ID = 12375
+Junction.3.RL.3 = 2.5 1.25 180 0 -7 2.6 180 0
+Junction.3.RL.3.RefObject = 411 623
+Junction.3.RL.3.Seg.0.ID = 12376
+Junction.3.RL.3.Seg.0.Type = Connect
+Junction.3.RL.3.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.3.RL.4.ID = 12377
+Junction.3.RL.4 = -2.6 7.00000000000001 270 0 -7 2.6 180 0
+Junction.3.RL.4.RefObject = 623 623
+Junction.3.RL.4.Seg.0.ID = 12378
+Junction.3.RL.4.Seg.0.Type = Connect
+Junction.3.RL.4.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.3.RL.5.ID = 12615
+Junction.3.RL.5 = 2.5 2.5 180 0 0 7.00000000000001 90 0
+Junction.3.RL.5.RefObject = -1 -1
+Junction.3.RL.5.Seg.0.ID = 12616
+Junction.3.RL.5.Seg.0.Type = Connect
+Junction.3.RL.5.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.3.RL.6.ID = 12617
+Junction.3.RL.6 = -5.2 7.00000000000001 270 0 -7 5.2 180 0
+Junction.3.RL.6.RefObject = -1 -1
+Junction.3.RL.6.Seg.0.ID = 12618
+Junction.3.RL.6.Seg.0.Type = Connect
+Junction.3.RL.6.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.3.RL.7.ID = 12619
+Junction.3.RL.7 = -7 0 0 0 2.5 0 0 0
+Junction.3.RL.7.RefObject = -1 -1
+Junction.3.RL.7.Seg.0.ID = 12620
+Junction.3.RL.7.Seg.0.Type = Connect
+Junction.3.RL.7.Seg.0.Param = 0 0 0 0 0 0 0 0
+Link.0.ID = 41
+Link.0.Node0 = 0 12 3 180
+Link.0.Node1 = 0 12 3 180
+Link.0.RST = Countryroad
+Link.0.RL.ID = 42
+Link.0.Seg.0.ID = 43
+Link.0.Seg.0.Type = Straight
+Link.0.Seg.0.Param = 50 0 0 0 0 0 0 0
+Link.0.Seg.1.ID = 44
+Link.0.Seg.1.Type = TurnLeft
+Link.0.Seg.1.Param = 120 60 0 0 0 0 0 0
+Link.0.Seg.2.ID = 45
+Link.0.Seg.2.Type = TurnLeft
+Link.0.Seg.2.Param = 75 30 0 0 0 0 0 0
+Link.0.Seg.3.ID = 8
+Link.0.Seg.3.Type = TurnLeft
+Link.0.Seg.3.Param = 64.966 158.214 0 0 0 0 0 0
+Link.0.Seg.4.ID = 14
+Link.0.Seg.4.Type = TurnRight
+Link.0.Seg.4.Param = 62.966 49.7 0 0 0 0 0 0
+Link.0.Seg.5.ID = 52
+Link.0.Seg.5.Type = PointList
+Link.0.Seg.5.Param = 0.993878320868497 -0.110480239444061 1 0 0 0 0 0
+Link.0.Seg.5.PointList:
+	12379 -1 81.7338359851909 -63.2981787793867
+Link.0.Seg.6.ID = 54
+Link.0.Seg.6.Type = TurnLeft
+Link.0.Seg.6.Param = 25.454 96.343 0 0 0 0 0 0
+Link.0.Seg.7.ID = 57
+Link.0.Seg.7.Type = TurnLeft
+Link.0.Seg.7.Param = 50 90 0 0 0 0 0 0
+Link.0.Seg.8.ID = 76
+Link.0.Seg.8.Type = Connect
+Link.0.Seg.8.Param = 0 0 0 0 0 0 0 0
+Link.0.Seg.9.ID = 179
+Link.0.Seg.9.Type = Straight
+Link.0.Seg.9.Param = 60 0 0 0 0 0 0 0
+Link.0.LaneSection.0.ID = 46
+Link.0.LaneSection.0.Start = 0
+Link.0.LaneSection.0.LaneL.0.ID = 47
+Link.0.LaneSection.0.LaneL.0 = 0 3.5 3.5 0 0 0 0
+Link.0.LaneSection.0.LaneL.0.ARP = 11695 11696 11697 11698 11699 11700
+Link.0.LaneSection.0.LaneL.1.ID = 49
+Link.0.LaneSection.0.LaneL.1 = 0 0.5 0.5 4 0 0 0
+Link.0.LaneSection.0.LaneL.1.ARP = 11701 11702 11703 11704 11705 11706
+Link.0.LaneSection.0.LaneL.2.ID = 50
+Link.0.LaneSection.0.LaneL.2 = 0 2.5 2.5 5 0 0 0
+Link.0.LaneSection.0.LaneR.0.ID = 51
+Link.0.LaneSection.0.LaneR.0 = 0 3 0 12 0 0 0
+Link.0.LaneSection.0.LaneR.0.Material.0 = Textures/Ground/Asphalt_barred25cm.jpg 0 0 0 0 1 1 0 0 0 0 45
+Link.0.LaneSection.0.LaneR.0.ARP = 11707 11708 11709 11710 11711 11712
+Link.0.LaneSection.0.LaneR.0.Width:
+	12100 -1 0 0 1 0 0 -999 -999
+	12101 -1 4.1 0 0 0 1.1 -999 -999
+	12102 -1 8 0 0 3 0 -999 -999
+Link.0.LaneSection.0.LaneR.1.ID = 187
+Link.0.LaneSection.0.LaneR.1 = 0 3 0 0 0 0 0
+Link.0.LaneSection.0.LaneR.1.ARP = 11713 11714 11715 11716 11717 11718
+Link.0.LaneSection.0.LaneR.1.Width:
+	12103 -1 0 0 1 3 0 -999 -999
+	12104 -1 4.1 0 0 3 -1.1 -999 -999
+	12105 -1 8 0 0 0 0 -999 -999
+Link.0.LaneSection.0.LaneR.2.ID = 56
+Link.0.LaneSection.0.LaneR.2 = 0 3.5 3.5 0 0 0 0
+Link.0.LaneSection.0.LaneR.2.ARP = 11719 11720 11721 11722 11723 11724
+Link.0.LaneSection.0.LaneR.3.ID = 61
+Link.0.LaneSection.0.LaneR.3 = 0 0.5 0.5 4 0 0 0
+Link.0.LaneSection.0.LaneR.3.ARP = 11725 11726 11727 11728 11729 11730
+Link.0.LaneSection.0.LaneR.4.ID = 62
+Link.0.LaneSection.0.LaneR.4 = 0 2.5 2.5 5 0 0 0
+Link.0.LaneSection.1.ID = 64
+Link.0.LaneSection.1.Start = 30
+Link.0.LaneSection.1.LaneL.0.ID = 65
+Link.0.LaneSection.1.LaneL.0 = 0 3.5 3.5 0 0 0 0
+Link.0.LaneSection.1.LaneL.0.ARP = 11731 11732 11733 11734 11735 11736
+Link.0.LaneSection.1.LaneL.1.ID = 67
+Link.0.LaneSection.1.LaneL.1 = 0 0.5 0.5 4 0 0 0
+Link.0.LaneSection.1.LaneL.1.ARP = 11737 11738 11739 11740 11741 11742
+Link.0.LaneSection.1.LaneL.2.ID = 68
+Link.0.LaneSection.1.LaneL.2 = 0 2.5 2.5 5 0 0 0
+Link.0.LaneSection.1.LaneR.0.ID = 69
+Link.0.LaneSection.1.LaneR.0 = 0 3.5 3.5 0 0 0 0
+Link.0.LaneSection.1.LaneR.0.ARP = 11743 11744 11745 11746 11747 11748
+Link.0.LaneSection.1.LaneR.1.ID = 71
+Link.0.LaneSection.1.LaneR.1 = 0 0.5 0.5 4 0 0 0
+Link.0.LaneSection.1.LaneR.1.ARP = 11749 11750 11751 11752 11753 11754
+Link.0.LaneSection.1.LaneR.2.ID = 72
+Link.0.LaneSection.1.LaneR.2 = 0 2.5 2.5 5 0 0 0
+Link.0.LaneSection.2.ID = 16
+Link.0.LaneSection.2.Start = 673.471
+Link.0.LaneSection.2.LaneL.0.ID = 31
+Link.0.LaneSection.2.LaneL.0 = 0 3.5 3.5 0 7 1 1
+Link.0.LaneSection.2.LaneL.0.ARP = 11779 11780 11781 11782 11783 11784
+Link.0.LaneSection.2.LaneL.1.ID = 206
+Link.0.LaneSection.2.LaneL.1 = 0 0.5 0.5 4 7 1 1
+Link.0.LaneSection.2.LaneL.1.ARP = 11785 11786 11787 11788 11789 11790
+Link.0.LaneSection.2.LaneL.2.ID = 359
+Link.0.LaneSection.2.LaneL.2 = 0 1 1 5 0 0 0
+Link.0.LaneSection.2.LaneR.0.ID = 368
+Link.0.LaneSection.2.LaneR.0 = 0 0 3 0 7 1 1
+Link.0.LaneSection.2.LaneR.0.ARP = 11791 11792 11793 11794 11795 11796
+Link.0.LaneSection.2.LaneR.0.Width:
+	12110 -1 20 0 0 3 0 -999 -999
+Link.0.LaneSection.2.LaneR.1.ID = 388
+Link.0.LaneSection.2.LaneR.1 = 0 3.5 3.5 0 7 1 1
+Link.0.LaneSection.2.LaneR.1.ARP = 11797 11798 11799 11800 11801 11802
+Link.0.LaneSection.2.LaneR.2.ID = 408
+Link.0.LaneSection.2.LaneR.2 = 0 0.5 0.5 4 7 1 1
+Link.0.LaneSection.2.LaneR.2.ARP = 11803 11804 11805 11806 11807 11808
+Link.0.LaneSection.2.LaneR.3.ID = 434
+Link.0.LaneSection.2.LaneR.3 = 0 1 1 5 0 0 0
+Link.1.ID = 17
+Link.1.Node0 = 0 -14 2.5 0
+Link.1.Node1 = 0 -36.6 2.5 180
+Link.1.RST = Roundabout
+Link.1.RL.ID = 18
+Link.1.Seg.0.ID = 22
+Link.1.Seg.0.Type = Straight
+Link.1.Seg.0.Param = 47.6 0 0 0 0 0 0 0
+Link.1.Seg.1.ID = 9
+Link.1.Seg.1.Type = TurnRight
+Link.1.Seg.1.Param = 4 90 0 0 0 0 0 0
+Link.1.Seg.2.ID = 539
+Link.1.Seg.2.Type = PointList
+Link.1.Seg.2.Param = 0 -1 1 0 0 0 0 0
+Link.1.Seg.2.PointList:
+	12429 -1 51.6 -32.6
+Link.1.Seg.3.ID = 541
+Link.1.Seg.3.Type = TurnRight
+Link.1.Seg.3.Param = 4 90 0 0 0 0 0 0
+Link.1.Seg.4.ID = 542
+Link.1.Seg.4.Type = Straight
+Link.1.Seg.4.Param = 47.6 0 0 0 0 0 0 0
+Link.1.LaneSection.0.ID = 23
+Link.1.LaneSection.0.Start = 0
+Link.1.LaneSection.0.LaneL.0.ID = 24
+Link.1.LaneSection.0.LaneL.0 = 0 2.5 2.5 0 0 0 0
+Link.1.LaneSection.0.LaneL.0.ARP = 11809 11810 11811 11812 11813 11814
+Link.1.LaneSection.0.LaneL.1.ID = 38
+Link.1.LaneSection.0.LaneL.1 = 0 0.5 0.5 4 0 0 0
+Link.1.LaneSection.0.LaneL.1.ARP = 11815 11816 11817 11818 11819 11820
+Link.1.LaneSection.0.LaneL.2.ID = 75
+Link.1.LaneSection.0.LaneL.2 = 0 2.5 2.5 5 0 0 0
+Link.1.LaneSection.0.LaneR.0.ID = 78
+Link.1.LaneSection.0.LaneR.0 = 0 2.5 2.5 0 0 0 0
+Link.1.LaneSection.0.LaneR.0.ARP = 11821 11822 11823 11824 11825 11826
+Link.1.LaneSection.0.LaneR.1.ID = 89
+Link.1.LaneSection.0.LaneR.1 = 0 0.5 0.5 4 0 0 0
+Link.1.LaneSection.0.LaneR.1.ARP = 11827 11828 11829 11830 11831 11832
+Link.1.LaneSection.0.LaneR.2.ID = 99
+Link.1.LaneSection.0.LaneR.2 = 0 2.5 2.5 5 0 0 0
+Link.1.LaneSection.1.ID = 102
+Link.1.LaneSection.1.Start = 5.5
+Link.1.LaneSection.1.LaneL.0.ID = 103
+Link.1.LaneSection.1.LaneL.0 = 0 2.5 2.5 0 0 0 0
+Link.1.LaneSection.1.LaneL.0.ARP = 11833 11834 11835 11836 11837 11838
+Link.1.LaneSection.1.LaneL.1.ID = 85
+Link.1.LaneSection.1.LaneL.1 = 0 5.8 5.8 13 0 0 0
+Link.1.LaneSection.1.LaneL.1.ARP = 11839 11840 11841 11842 11843 11844
+Link.1.LaneSection.1.LaneL.2.ID = 59
+Link.1.LaneSection.1.LaneL.2 = 0 0.2 0.2 4 0 0 0
+Link.1.LaneSection.1.LaneL.2.ARP = 11845 11846 11847 11848 11849 11850
+Link.1.LaneSection.1.LaneL.3.ID = 112
+Link.1.LaneSection.1.LaneL.3 = 0 2.5 2.5 5 0 0 0
+Link.1.LaneSection.1.LaneR.0.ID = 115
+Link.1.LaneSection.1.LaneR.0 = 0 2.5 2.5 0 0 0 0
+Link.1.LaneSection.1.LaneR.0.ARP = 11851 11852 11853 11854 11855 11856
+Link.1.LaneSection.1.LaneR.1.ID = 157
+Link.1.LaneSection.1.LaneR.1 = 0 5.8 5.8 13 0 0 0
+Link.1.LaneSection.1.LaneR.1.ARP = 11857 11858 11859 11860 11861 11862
+Link.1.LaneSection.1.LaneR.2.ID = 494
+Link.1.LaneSection.1.LaneR.2 = 0 0.2 0.2 4 0 0 0
+Link.1.LaneSection.1.LaneR.2.ARP = 11863 11864 11865 11866 11867 11868
+Link.1.LaneSection.1.LaneR.3.ID = 165
+Link.1.LaneSection.1.LaneR.3 = 0 2.5 2.5 5 0 0 0
+Link.1.LaneSection.2.ID = 300
+Link.1.LaneSection.2.Start = 46.1
+Link.1.LaneSection.2.LaneL.0.ID = 301
+Link.1.LaneSection.2.LaneL.0 = 0 2.5 2.5 0 0 0 0
+Link.1.LaneSection.2.LaneL.0.ARP = 11869 11870 11871 11872 11873 11874
+Link.1.LaneSection.2.LaneL.1.ID = 132
+Link.1.LaneSection.2.LaneL.1 = 0 0.5 0.5 4 0 0 0
+Link.1.LaneSection.2.LaneL.1.ARP = 11875 11876 11877 11878 11879 11880
+Link.1.LaneSection.2.LaneL.2.ID = 318
+Link.1.LaneSection.2.LaneL.2 = 0 2.5 2.5 5 0 0 0
+Link.1.LaneSection.2.LaneR.0.ID = 321
+Link.1.LaneSection.2.LaneR.0 = 0 2.5 2.5 0 0 0 0
+Link.1.LaneSection.2.LaneR.0.ARP = 11881 11882 11883 11884 11885 11886
+Link.1.LaneSection.2.LaneR.1.ID = 330
+Link.1.LaneSection.2.LaneR.1 = 0 0.5 0.5 4 0 0 0
+Link.1.LaneSection.2.LaneR.1.ARP = 11887 11888 11889 11890 11891 11892
+Link.1.LaneSection.2.LaneR.2.ID = 338
+Link.1.LaneSection.2.LaneR.2 = 0 2.5 2.5 5 0 0 0
+Link.1.LaneSection.3.ID = 352
+Link.1.LaneSection.3.Start = 55.383
+Link.1.LaneSection.3.LaneL.0.ID = 353
+Link.1.LaneSection.3.LaneL.0 = 0 2.5 2.5 0 0 0 0
+Link.1.LaneSection.3.LaneL.0.ARP = 11893 11894 11895 11896 11897 11898
+Link.1.LaneSection.3.LaneL.1.ID = 362
+Link.1.LaneSection.3.LaneL.1 = 0 5.8 5.8 13 0 0 0
+Link.1.LaneSection.3.LaneL.1.ARP = 11899 11900 11901 11902 11903 11904
+Link.1.LaneSection.3.LaneL.2.ID = 502
+Link.1.LaneSection.3.LaneL.2 = 0 0.2 0.2 4 0 0 0
+Link.1.LaneSection.3.LaneL.2.ARP = 11905 11906 11907 11908 11909 11910
+Link.1.LaneSection.3.LaneL.3.ID = 370
+Link.1.LaneSection.3.LaneL.3 = 0 2.5 2.5 5 0 0 0
+Link.1.LaneSection.3.LaneR.0.ID = 373
+Link.1.LaneSection.3.LaneR.0 = 0 2.5 2.5 0 0 0 0
+Link.1.LaneSection.3.LaneR.0.ARP = 11911 11912 11913 11914 11915 11916
+Link.1.LaneSection.3.LaneR.1.ID = 382
+Link.1.LaneSection.3.LaneR.1 = 0 0.5 0.5 4 0 0 0
+Link.1.LaneSection.3.LaneR.1.ARP = 11917 11918 11919 11920 11921 11922
+Link.1.LaneSection.3.LaneR.2.ID = 390
+Link.1.LaneSection.3.LaneR.2 = 0 2.5 2.5 5 0 0 0
+Link.1.LaneSection.4.ID = 393
+Link.1.LaneSection.4.Start = 66.983
+Link.1.LaneSection.4.LaneL.0.ID = 394
+Link.1.LaneSection.4.LaneL.0 = 0 2.5 2.5 0 0 0 0
+Link.1.LaneSection.4.LaneL.0.ARP = 11923 11924 11925 11926 11927 11928
+Link.1.LaneSection.4.LaneL.1.ID = 431
+Link.1.LaneSection.4.LaneL.1 = 0 0.5 0.5 4 0 0 0
+Link.1.LaneSection.4.LaneL.1.ARP = 11929 11930 11931 11932 11933 11934
+Link.1.LaneSection.4.LaneL.2.ID = 439
+Link.1.LaneSection.4.LaneL.2 = 0 2.5 2.5 5 0 0 0
+Link.1.LaneSection.4.LaneR.0.ID = 456
+Link.1.LaneSection.4.LaneR.0 = 0 2.5 2.5 0 0 0 0
+Link.1.LaneSection.4.LaneR.0.ARP = 11935 11936 11937 11938 11939 11940
+Link.1.LaneSection.4.LaneR.1.ID = 407
+Link.1.LaneSection.4.LaneR.1 = 0 0.5 0.5 0 0 0 0
+Link.1.LaneSection.4.LaneR.1.ARP = 11941 11942 11943 11944 11945 11946
+Link.1.LaneSection.4.LaneR.2.ID = 475
+Link.1.LaneSection.4.LaneR.2 = 0 2.5 2.5 5 0 0 0
+Link.1.LaneSection.5.ID = 602
+Link.1.LaneSection.5.Start = 76.2663706143592
+Link.1.LaneSection.5.LaneL.0.ID = 558
+Link.1.LaneSection.5.LaneL.0 = 0 2.5 2.5 0 0 0 0
+Link.1.LaneSection.5.LaneL.0.ARP = 11971 11972 11973 11974 11975 11976
+Link.1.LaneSection.5.LaneL.1.ID = 612
+Link.1.LaneSection.5.LaneL.1 = 0 5.8 5.8 13 0 0 0
+Link.1.LaneSection.5.LaneL.1.ARP = 11977 11978 11979 11980 11981 11982
+Link.1.LaneSection.5.LaneL.2.ID = 518
+Link.1.LaneSection.5.LaneL.2 = 0 0.2 0.2 4 0 0 0
+Link.1.LaneSection.5.LaneL.2.ARP = 11983 11984 11985 11986 11987 11988
+Link.1.LaneSection.5.LaneL.3.ID = 620
+Link.1.LaneSection.5.LaneL.3 = 0 2.5 2.5 5 0 0 0
+Link.1.LaneSection.5.LaneR.0.ID = 625
+Link.1.LaneSection.5.LaneR.0 = 0 2.5 2.5 0 0 0 0
+Link.1.LaneSection.5.LaneR.0.ARP = 11989 11990 11991 11992 11993 11994
+Link.1.LaneSection.5.LaneR.1.ID = 634
+Link.1.LaneSection.5.LaneR.1 = 0 5.8 5.8 13 0 0 0
+Link.1.LaneSection.5.LaneR.1.ARP = 11995 11996 11997 11998 11999 12000
+Link.1.LaneSection.5.LaneR.2.ID = 510
+Link.1.LaneSection.5.LaneR.2 = 0 0.2 0.2 4 0 0 0
+Link.1.LaneSection.5.LaneR.2.ARP = 12001 12002 12003 12004 12005 12006
+Link.1.LaneSection.5.LaneR.3.ID = 645
+Link.1.LaneSection.5.LaneR.3 = 0 2.5 2.5 5 0 0 0
+Link.1.LaneSection.6.ID = 648
+Link.1.LaneSection.6.Start = 116.866370614359
+Link.1.LaneSection.6.LaneL.0.ID = 617
+Link.1.LaneSection.6.LaneL.0 = 0 2.5 2.5 0 0 0 0
+Link.1.LaneSection.6.LaneL.0.ARP = 12007 12008 12009 12010 12011 12012
+Link.1.LaneSection.6.LaneL.1.ID = 658
+Link.1.LaneSection.6.LaneL.1 = 0 0.5 0.5 4 0 0 0
+Link.1.LaneSection.6.LaneL.1.ARP = 12013 12014 12015 12016 12017 12018
+Link.1.LaneSection.6.LaneL.2.ID = 669
+Link.1.LaneSection.6.LaneL.2 = 0 2.5 2.5 5 0 0 0
+Link.1.LaneSection.6.LaneR.0.ID = 771
+Link.1.LaneSection.6.LaneR.0 = 0 2.5 2.5 0 0 0 0
+Link.1.LaneSection.6.LaneR.0.ARP = 12019 12020 12021 12022 12023 12024
+Link.1.LaneSection.6.LaneR.1.ID = 782
+Link.1.LaneSection.6.LaneR.1 = 0 0.5 0.5 4 0 0 0
+Link.1.LaneSection.6.LaneR.1.ARP = 12025 12026 12027 12028 12029 12030
+Link.1.LaneSection.6.LaneR.2.ID = 790
+Link.1.LaneSection.6.LaneR.2 = 0 2.5 2.5 5 0 0 0
+Link.2.ID = 168
+Link.2.Node0 = 0 -14 2.5 90
+Link.2.Node1 = 0 12 3 90
+Link.2.RST = Urban
+Link.2.RL.ID = 169
+Link.2.Seg.0.ID = 173
+Link.2.Seg.0.Type = Straight
+Link.2.Seg.0.Param = 8 0 0 0 0 0 0 0
+Link.2.Seg.1.ID = 343
+Link.2.Seg.1.Type = PointList
+Link.2.Seg.1.Param = 0 1 1 0 0 0 0 0
+Link.2.Seg.1.PointList:
+	12541 -1 0 3
+Link.2.Seg.2.ID = 10
+Link.2.Seg.2.Type = Connect
+Link.2.Seg.2.Param = 0 0 0 0 0 0 0 0
+Link.2.LaneSection.0.ID = 174
+Link.2.LaneSection.0.Start = 0
+Link.2.LaneSection.0.LaneL.0.ID = 175
+Link.2.LaneSection.0.LaneL.0 = 0 2.5 2.5 0 0 0 0
+Link.2.LaneSection.0.LaneL.0.ARP = 12031 12032 12033 12034 12035 12036
+Link.2.LaneSection.0.LaneL.1.ID = 189
+Link.2.LaneSection.0.LaneL.1 = 0 0.5 0.5 4 0 0 0
+Link.2.LaneSection.0.LaneL.1.ARP = 12037 12038 12039 12040 12041 12042
+Link.2.LaneSection.0.LaneL.2.ID = 212
+Link.2.LaneSection.0.LaneL.2 = 0 2.5 2.5 5 0 0 0
+Link.2.LaneSection.0.LaneR.0.ID = 215
+Link.2.LaneSection.0.LaneR.0 = 0 2.5 2.5 0 0 0 0
+Link.2.LaneSection.0.LaneR.0.ARP = 12043 12044 12045 12046 12047 12048
+Link.2.LaneSection.0.LaneR.1.ID = 227
+Link.2.LaneSection.0.LaneR.1 = 0 0.5 0.5 4 0 0 0
+Link.2.LaneSection.0.LaneR.1.ARP = 12049 12050 12051 12052 12053 12054
+Link.2.LaneSection.0.LaneR.2.ID = 237
+Link.2.LaneSection.0.LaneR.2 = 0 2.5 2.5 5 0 0 0
+Link.3.ID = 414
+Link.3.Node0 = -16 -44 4.2 180
+Link.3.Node1 = -16 -44 4.2 270
+Link.3.RST = Roundabout
+Link.3.RL.ID = 415
+Link.3.Seg.0.ID = 416
+Link.3.Seg.0.Type = Straight
+Link.3.Seg.0.Param = 43.5 0 0 0 0 0 0 0
+Link.3.Seg.1.ID = 417
+Link.3.Seg.1.Type = TurnRight
+Link.3.Seg.1.Param = 5 90 0 0 0 0 0 0
+Link.3.Seg.2.ID = 418
+Link.3.Seg.2.Type = Straight
+Link.3.Seg.2.Param = 20 0 0 0 0 0 0 0
+Link.3.Seg.3.ID = 419
+Link.3.Seg.3.Type = TurnRight
+Link.3.Seg.3.Param = 5 90 0 0 0 0 0 0
+Link.3.Seg.4.ID = 420
+Link.3.Seg.4.Type = Straight
+Link.3.Seg.4.Param = 38.5 0 0 0 0 0 0 0
+Link.3.Seg.5.ID = 421
+Link.3.Seg.5.Type = TurnRight
+Link.3.Seg.5.Param = 5 90 0 0 0 0 0 0
+Link.3.Seg.6.ID = 422
+Link.3.Seg.6.Type = Straight
+Link.3.Seg.6.Param = 19 0 0 0 0 0 0 0
+Link.3.Seg.7.ID = 423
+Link.3.Seg.7.Type = PointList
+Link.3.Seg.7.Param = -1.83697019872103e-16 -1 1 0 0 0 0 0
+Link.3.Seg.7.PointList:
+	12559 -1 -16 -44
+Link.3.LaneSection.0.ID = 425
+Link.3.LaneSection.0.Start = 0
+Link.3.LaneSection.0.LaneL.0.ID = 426
+Link.3.LaneSection.0.LaneL.0 = 0 2.5 2.5 5 0 0 0
+Link.3.LaneSection.0.LaneR.0.ID = 427
+Link.3.LaneSection.0.LaneR.0 = 0 5.2 5.2 11 0 0 0
+Link.3.LaneSection.0.LaneR.0.Material.0 = Textures/Ground/Pavement_01.mtex 0 0 0 0 1 1 1 1 0 0 0
+Link.3.LaneSection.0.LaneR.0.ARP = 12055 12056 12057 12058 12059 12060
+Link.3.LaneSection.0.LaneR.1.ID = 428
+Link.3.LaneSection.0.LaneR.1 = 0 2.5 2.5 5 0 0 0
+Link.4.ID = 447
+Link.4.Node0 = -16 -44 4.2 0
+Link.4.Node1 = 0 -36.6 2.5 45
+Link.4.RST = Roundabout
+Link.4.RL.ID = 448
+Link.4.Seg.0.ID = 449
+Link.4.Seg.0.Type = Straight
+Link.4.Seg.0.Param = 5 0 0 0 0 0 0 0
+Link.4.Seg.1.ID = 400
+Link.4.Seg.1.Type = PointList
+Link.4.Seg.1.Param = 0.707106781186548 0.707106781186547 1 0 0 0 0 0
+Link.4.Seg.1.PointList:
+	12571 -1 0 -36.6
+Link.4.LaneSection.0.ID = 452
+Link.4.LaneSection.0.Start = 0
+Link.4.LaneSection.0.LaneL.0.ID = 402
+Link.4.LaneSection.0.LaneL.0 = 0 2.5 2.5 11 0 0 0
+Link.4.LaneSection.0.LaneL.0.Material.0 = Textures/Ground/Pavement_01.mtex 0 0 0 0 1 1 1 1 0 0 0
+Link.4.LaneSection.0.LaneL.0.ARP = 12061 12062 12063 12064 12065 12066
+Link.4.LaneSection.0.LaneL.1.ID = 450
+Link.4.LaneSection.0.LaneL.1 = 0 2.5 2.5 5 0 0 0
+Link.4.LaneSection.0.LaneR.0.ID = 480
+Link.4.LaneSection.0.LaneR.0 = 0 2.5 2.5 5 0 0 0
+Link.5.ID = 241
+Link.5.Node0 = 0 -14 2.5 270
+Link.5.Node1 = 0 -36.6 2.5 270
+Link.5.RST = Roundabout
+Link.5.RL.ID = 242
+Link.5.Seg.0.ID = 246
+Link.5.Seg.0.Type = Straight
+Link.5.Seg.0.Param = 15 0 0 0 0 0 0 0
+Link.5.Seg.1.ID = 395
+Link.5.Seg.1.Type = PointList
+Link.5.Seg.1.Param = -1.83697019872103e-16 -1 1 0 0 0 0 0
+Link.5.Seg.1.PointList:
+	12583 -1 0 -36.6
+Link.5.LaneSection.0.ID = 247
+Link.5.LaneSection.0.Start = 0
+Link.5.LaneSection.0.LaneL.0.ID = 248
+Link.5.LaneSection.0.LaneL.0 = 0 2.5 2.5 0 0 0 0
+Link.5.LaneSection.0.LaneL.0.ARP = 12067 12068 12069 12070 12071 12072
+Link.5.LaneSection.0.LaneL.1.ID = 261
+Link.5.LaneSection.0.LaneL.1 = 0 0.5 0.5 4 0 0 0
+Link.5.LaneSection.0.LaneL.1.ARP = 12073 12074 12075 12076 12077 12078
+Link.5.LaneSection.0.LaneL.2.ID = 271
+Link.5.LaneSection.0.LaneL.2 = 0 2.5 2.5 5 0 0 0
+Link.5.LaneSection.0.LaneR.0.ID = 274
+Link.5.LaneSection.0.LaneR.0 = 0 2.5 2.5 0 0 0 0
+Link.5.LaneSection.0.LaneR.0.ARP = 12079 12080 12081 12082 12083 12084
+Link.5.LaneSection.0.LaneR.1.ID = 529
+Link.5.LaneSection.0.LaneR.1 = 0 2 2 11 0 0 0
+Link.5.LaneSection.0.LaneR.1.ARP = 12085 12086 12087 12088 12089 12090
+Link.5.LaneSection.0.LaneR.2.ID = 287
+Link.5.LaneSection.0.LaneR.2 = 0 0.5 0.5 4 0 0 0
+Link.5.LaneSection.0.LaneR.2.ARP = 12091 12092 12093 12094 12095 12096
+Link.5.LaneSection.0.LaneR.3.ID = 297
+Link.5.LaneSection.0.LaneR.3 = 0 2.5 2.5 5 0 0 0
+LanePath.0 = 0 47 2 10 0.1 0.1
+LanePath.1 = 566 49 0.25 10 0.1 0.1
+LanePath.2 = 567 51 0.25 10 0.1 0.1
+LanePath.3 = 401 187 5 10 0.1 0.1
+LanePath.4 = 568 56 2 10 0.1 0.1
+LanePath.5 = 569 61 0.25 10 0.1 0.1
+LanePath.6 = 570 65 2 10 0.1 0.1
+LanePath.7 = 571 67 0.25 10 0.1 0.1
+LanePath.8 = 572 69 2 10 0.1 0.1
+LanePath.9 = 573 71 0.25 10 0.1 0.1
+LanePath.10 = 203 31 2 10 0.1 0.1
+LanePath.11 = 358 206 0.25 10 0.1 0.1
+LanePath.12 = 384 368 2 10 0.1 0.1
+LanePath.13 = 403 388 2 10 0.1 0.1
+LanePath.14 = 433 408 0.25 10 0.1 0.1
+LanePath.15 = 35 24 2 10 0.1 0.1
+LanePath.16 = 74 38 0 10 0.1 0.1
+LanePath.17 = 87 78 2 10 0.1 0.1
+LanePath.18 = 98 89 0 10 0.1 0.1
+LanePath.19 = 58 103 2 10 0.1 0.1
+LanePath.20 = 111 85 10 10 0.1 0.1
+LanePath.21 = 493 59 0 10 0.1 0.1
+LanePath.22 = 155 115 2 10 0.1 0.1
+LanePath.23 = 164 157 10 10 0.1 0.1
+LanePath.24 = 501 494 0 10 0.1 0.1
+LanePath.25 = 109 301 2 10 0.1 0.1
+LanePath.26 = 317 132 0 10 0.1 0.1
+LanePath.27 = 328 321 2 10 0.1 0.1
+LanePath.28 = 337 330 0 10 0.1 0.1
+LanePath.29 = 360 353 2 10 0.1 0.1
+LanePath.30 = 369 362 10 10 0.1 0.1
+LanePath.31 = 509 502 0 10 0.1 0.1
+LanePath.32 = 380 373 2 10 0.1 0.1
+LanePath.33 = 389 382 0.25 10 0.1 0.1
+LanePath.34 = 429 394 2 10 0.1 0.1
+LanePath.35 = 438 431 0.25 10 0.1 0.1
+LanePath.36 = 463 456 2 10 0.1 0.1
+LanePath.37 = 8381 407 2 10 0.1 0.1
+LanePath.38 = 597 558 2 10 0.1 0.1
+LanePath.39 = 619 612 2 10 0.1 0.1
+LanePath.40 = 4067 518 0 10 0.1 0.1
+LanePath.41 = 632 625 2 10 0.1 0.1
+LanePath.42 = 644 634 10 10 0.1 0.1
+LanePath.43 = 517 510 0 10 0.1 0.1
+LanePath.44 = 643 617 2 10 0.1 0.1
+LanePath.45 = 668 658 0 10 0.1 0.1
+LanePath.46 = 4068 771 2 10 0.1 0.1
+LanePath.47 = 4073 782 0 10 0.1 0.1
+LanePath.48 = 184 175 2 10 0.1 0.1
+LanePath.49 = 211 189 0 10 0.1 0.1
+LanePath.50 = 224 215 2 10 0.1 0.1
+LanePath.51 = 236 227 0 10 0.1 0.1
+LanePath.52 = 623 427 2 10 0.1 0.1
+LanePath.53 = 411 402 2 10 0.1 0.1
+LanePath.54 = 257 248 2 10 0.1 0.1
+LanePath.55 = 270 261 0 10 0.1 0.1
+LanePath.56 = 283 274 2 10 0.1 0.1
+LanePath.57 = 4074 529 2 10 0.1 0.1
+LanePath.58 = 296 287 0 10 0.1 0.1
+ConPath.0 = 130 41 572 0 1 384 20 0 0 1 2 2
+ConPath.1 = 194 17 35 1.355 0 35 0.5 1 0 1 2 2
+ConPath.2 = 345 1 224 0 1 568 0 0 0 1 2 2
+ConPath.2.RL = 12337
+ConPath.3 = 2293 1 0 0 1 184 0 0 31 1 2 2
+ConPath.3.RL = 12339
+ConPath.4 = 7 1 0 0 1 203 0 0 31 1 2 2
+ConPath.4.RL = 12341
+ConPath.5 = 15 1 224 0 1 203 0 0 31 1 2 2
+ConPath.5.RL = 12343
+ConPath.6 = 32 1 384 0 1 184 0 0 31 1 2 2
+ConPath.6.RL = 12345
+ConPath.7 = 385 1 384 0 1 401 0 0 31 1 2 2
+ConPath.7.RL = 12347
+ConPath.8 = 124 1 403 0 1 568 0 0 31 1 2 2
+ConPath.8.RL = 12349
+ConPath.9 = 386 1 384 0 1 568 0 0 31 1 2 2
+ConPath.9.RL = 12351
+ConPath.10 = 404 1 403 0 1 401 0 0 31 1 2 2
+ConPath.10.RL = 12353
+ConPath.11 = 406 1 403 0 1 184 0 0 31 1 2 2
+ConPath.11.RL = 12355
+ConPath.12 = 5 4 257 0 1 224 0 0 0 1 2 2
+ConPath.12.RL = 12357
+ConPath.13 = 2298 4 35 0 1 283 0 0 31 1 2 2
+ConPath.13.RL = 12359
+ConPath.14 = 2300 4 184 0 1 283 0 0 31 1 2 2
+ConPath.14.RL = 12361
+ConPath.15 = 2302 4 184 0 1 87 0 0 31 1 2 2
+ConPath.15.RL = 12363
+ConPath.16 = 2303 4 257 0 1 87 0 0 31 1 2 2
+ConPath.16.RL = 12365
+ConPath.17 = 195 4 35 0 1 224 0 0 0 1 2 2
+ConPath.17.RL = 12367
+ConPath.18 = 3 158 283 0 1 643 0 0 0 1 2 2
+ConPath.18.RL = 12369
+ConPath.19 = 342 158 4068 0 1 257 0 0 0 1 2 2
+ConPath.19.RL = 12371
+ConPath.20 = 193 158 4074 0 1 411 0 0 0 1 2 2
+ConPath.20.RL = 12373
+ConPath.21 = 2308 37 411 0 1 623 0 0 31 1 2 2
+ConPath.21.RL = 12375
+ConPath.22 = 2309 37 623 0 1 623 0 0 31 1 2 2
+ConPath.22.RL = 12377
+Route.0.ID = 347
+Route.0.Name = Pedestrian
+Route.0.DrvPath.ID = 348
+Route.0.DrvPath:
+	4074
+	193
+	411
+	2308
+	623
+	2309
+Route.1.ID = 322
+Route.1.Name = Parking
+Route.1.DrvPath.ID = 323
+Route.1.DrvPath:
+	568
+	572
+	130
+	384
+	32
+	184
+	2300
+	283
+	3
+	643
+	597
+	429
+	360
+	109
+	58
+	35
+	195
+	224
+	345
+Route.2.ID = 33
+Route.2.Name = Passing
+Route.2.DrvPath.ID = 126
+Route.2.DrvPath:
+	568
+	572
+	403
+	124
+Route.3.ID = 316
+Route.3.Name = Oncoming
+Route.3.DrvPath.ID = 319
+Route.3.DrvPath:
+	203
+	570
+	0
+	7
+RL.11.RoadMarking.0.ID = 13 11
+RL.11.RoadMarking.0 = 0 0 0 1 0 0 0.12 0 2 0 0 1 1 1 1 0 ""
+RL.18.GeoObject.0.ID = 199 18
+RL.18.GeoObject.0 = 7.5 0 7.5 0 -11.15 100 1 0 0 0 10 0.6 0.6 0.6 0 3D/Vegetation/Tree_01.mobj
+RL.18.GeoObject.0.SensorBBox = 1 -7.038 6.096 -5.904 4.794 0 13.848
+RL.18.GeoObject.1.ID = 181 18
+RL.18.GeoObject.1 = 19.7 0 19.7 0 -11.15 100 0 0 0 0 60 0.6 0.6 0.6 0 3D/Vegetation/Tree_01.mobj
+RL.18.GeoObject.1.SensorBBox = 1 -7.038 6.096 -5.904 4.794 0 13.848
+RL.18.GeoObject.2.ID = 185 18
+RL.18.GeoObject.2 = 31.9 0 31.9 0 -11.15 100 0 0 0 0 -40 0.6 0.6 0.6 0 3D/Vegetation/Tree_01.mobj
+RL.18.GeoObject.2.SensorBBox = 1 -7.038 6.096 -5.904 4.794 0 13.848
+RL.18.GeoObject.3.ID = 192 18
+RL.18.GeoObject.3 = 44.1 0 44.1 0 -11.15 100 0 0 0 0 30 0.6 0.6 0.6 0 3D/Vegetation/Tree_01.mobj
+RL.18.GeoObject.3.SensorBBox = 1 -7.038 6.096 -5.904 4.794 0 13.848
+RL.18.RoadPainting.0.ID = 2 18
+RL.18.RoadPainting.0 = 39 0 0 -2 1 1 0 ""
+RL.18.RoadPainting.0.Material.0 = Textures/Ground/Manhole_01.png 0 0 0 0 0 0 1 1 0 0 0
+RL.18.RoadPainting.1.ID = 6 18
+RL.18.RoadPainting.1 = 110 0 0 -2 1 1 0 ""
+RL.18.RoadPainting.1.Material.0 = Textures/Ground/Manhole_01.png 0 0 0 0 0 0 1 1 0 0 0
+RL.18.RoadMarking.0.ID = 36 24
+RL.18.RoadMarking.0 = 0 0 0 1 0 1 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.18.RoadMarking.1.ID = 88 78
+RL.18.RoadMarking.1 = 0 0 0 1 0 -1 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.18.RoadMarking.2.ID = 484 85
+RL.18.RoadMarking.2 = 0 0 0 1 0 1 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.18.RoadMarking.3.ID = 485 157
+RL.18.RoadMarking.3 = 0 0 0 1 0 -1 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.18.RoadMarking.4.ID = 92 18
+RL.18.RoadMarking.4 = 5.56 0 0 1 -2.44 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.4.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.4.PointList:
+	0 0
+	0 -5.8
+RL.18.RoadMarking.5.ID = 19 18
+RL.18.RoadMarking.5 = 5.56 0 0 1 2.44 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.5.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.5.PointList:
+	0 0
+	0 5.86
+RL.18.RoadMarking.6.ID = 20 18
+RL.18.RoadMarking.6 = 8.4 0 0 1 2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.6.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.6.PointList:
+	0 0
+	0 5.74
+RL.18.RoadMarking.7.ID = 93 18
+RL.18.RoadMarking.7 = 8.4 0 0 1 -2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.7.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.7.PointList:
+	0 0
+	0 -5.74
+RL.18.RoadMarking.8.ID = 21 18
+RL.18.RoadMarking.8 = 11.3 0 0 1 2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.8.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.8.PointList:
+	0 0
+	0 5.74
+RL.18.RoadMarking.9.ID = 94 18
+RL.18.RoadMarking.9 = 11.3 0 0 1 -2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.9.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.9.PointList:
+	0 0
+	0 -5.74
+RL.18.RoadMarking.10.ID = 26 18
+RL.18.RoadMarking.10 = 14.2 0 0 1 2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.10.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.10.PointList:
+	0 0
+	0 5.74
+RL.18.RoadMarking.11.ID = 95 18
+RL.18.RoadMarking.11 = 14.2 0 0 1 -2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.11.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.11.PointList:
+	0 0
+	0 -5.74
+RL.18.RoadMarking.12.ID = 96 18
+RL.18.RoadMarking.12 = 17.1 0 0 1 -2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.12.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.12.PointList:
+	0 0
+	0 -5.74
+RL.18.RoadMarking.13.ID = 27 18
+RL.18.RoadMarking.13 = 17.1 0 0 1 2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.13.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.13.PointList:
+	0 0
+	0 5.74
+RL.18.RoadMarking.14.ID = 97 18
+RL.18.RoadMarking.14 = 20 0 0 1 -2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.14.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.14.PointList:
+	0 0
+	0 -5.74
+RL.18.RoadMarking.15.ID = 34 18
+RL.18.RoadMarking.15 = 20 0 0 1 2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.15.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.15.PointList:
+	0 0
+	0 5.74
+RL.18.RoadMarking.16.ID = 77 18
+RL.18.RoadMarking.16 = 22.9 0 0 1 2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.16.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.16.PointList:
+	0 0
+	0 5.74
+RL.18.RoadMarking.17.ID = 100 18
+RL.18.RoadMarking.17 = 22.9 0 0 1 -2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.17.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.17.PointList:
+	0 0
+	0 -5.74
+RL.18.RoadMarking.18.ID = 101 18
+RL.18.RoadMarking.18 = 25.8 0 0 1 -2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.18.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.18.PointList:
+	0 0
+	0 -5.74
+RL.18.RoadMarking.19.ID = 79 18
+RL.18.RoadMarking.19 = 25.8 0 0 1 2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.19.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.19.PointList:
+	0 0
+	0 5.74
+RL.18.RoadMarking.20.ID = 104 18
+RL.18.RoadMarking.20 = 28.7 0 0 1 -2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.20.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.20.PointList:
+	0 0
+	0 -5.74
+RL.18.RoadMarking.21.ID = 80 18
+RL.18.RoadMarking.21 = 28.7 0 0 1 2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.21.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.21.PointList:
+	0 0
+	0 5.74
+RL.18.RoadMarking.22.ID = 81 18
+RL.18.RoadMarking.22 = 31.6 0 0 1 2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.22.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.22.PointList:
+	0 0
+	0 5.74
+RL.18.RoadMarking.23.ID = 105 18
+RL.18.RoadMarking.23 = 31.6 0 0 1 -2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.23.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.23.PointList:
+	0 0
+	0 -5.74
+RL.18.RoadMarking.24.ID = 82 18
+RL.18.RoadMarking.24 = 34.5 0 0 1 2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.24.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.24.PointList:
+	0 0
+	0 5.74
+RL.18.RoadMarking.25.ID = 106 18
+RL.18.RoadMarking.25 = 34.5 0 0 1 -2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.25.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.25.PointList:
+	0 0
+	0 -5.74
+RL.18.RoadMarking.26.ID = 107 18
+RL.18.RoadMarking.26 = 37.4 0 0 1 -2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.26.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.26.PointList:
+	0 0
+	0 -5.74
+RL.18.RoadMarking.27.ID = 84 18
+RL.18.RoadMarking.27 = 37.4 0 0 1 2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.27.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.27.PointList:
+	0 0
+	0 5.74
+RL.18.RoadMarking.28.ID = 108 18
+RL.18.RoadMarking.28 = 40.3 0 0 1 -2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.28.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.28.PointList:
+	0 0
+	0 -5.74
+RL.18.RoadMarking.29.ID = 86 18
+RL.18.RoadMarking.29 = 40.3 0 0 1 2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.29.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.29.PointList:
+	0 0
+	0 5.74
+RL.18.RoadMarking.30.ID = 90 18
+RL.18.RoadMarking.30 = 43.2 0 0 1 2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.30.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.30.PointList:
+	0 0
+	0 5.74
+RL.18.RoadMarking.31.ID = 113 18
+RL.18.RoadMarking.31 = 43.2 0 0 1 -2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.31.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.31.PointList:
+	0 0
+	0 -5.74
+RL.18.RoadMarking.32.ID = 114 18
+RL.18.RoadMarking.32 = 46.04 0 0 1 -2.44 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.32.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.32.PointList:
+	0 0
+	0 -5.8
+RL.18.RoadMarking.33.ID = 91 18
+RL.18.RoadMarking.33 = 46.04 0 0 1 2.44 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.33.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.33.PointList:
+	0 0
+	0 5.8
+RL.18.RoadMarking.34.ID = 110 301
+RL.18.RoadMarking.34 = 0 0 0 1 0 1 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.18.RoadMarking.35.ID = 329 321
+RL.18.RoadMarking.35 = 0 0 0 1 0 -1 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.18.RoadMarking.36.ID = 487 362
+RL.18.RoadMarking.36 = 0 0 0 1 0 1 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.18.RoadMarking.37.ID = 381 373
+RL.18.RoadMarking.37 = 0 0 0 1 0 -1 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.18.RoadMarking.38.ID = 140 18
+RL.18.RoadMarking.38 = 55.443 0 0 1 2.44 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.38.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.38.PointList:
+	0 0
+	0 5.8
+RL.18.RoadMarking.39.ID = 156 18
+RL.18.RoadMarking.39 = 58.283 0 0 1 2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.39.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.39.PointList:
+	0 0
+	0 5.74
+RL.18.RoadMarking.40.ID = 180 18
+RL.18.RoadMarking.40 = 61.183 0 0 1 2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.40.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.40.PointList:
+	0 0
+	0 5.74
+RL.18.RoadMarking.41.ID = 182 18
+RL.18.RoadMarking.41 = 64.083 0 0 1 2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.41.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.41.PointList:
+	0 0
+	0 5.74
+RL.18.RoadMarking.42.ID = 183 18
+RL.18.RoadMarking.42 = 66.923 0 0 1 2.44 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.42.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.42.PointList:
+	0 0
+	0 5.8
+RL.18.RoadMarking.43.ID = 430 394
+RL.18.RoadMarking.43 = 0 0 0 1 0 1 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.18.RoadMarking.44.ID = 464 456
+RL.18.RoadMarking.44 = 0 0 0 1 0 -1 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.18.RoadMarking.45.ID = 488 612
+RL.18.RoadMarking.45 = 0 0 0 1 0 1 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.18.RoadMarking.46.ID = 486 634
+RL.18.RoadMarking.46 = 0 0 0 1 0 -1 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.18.RoadMarking.47.ID = 154 18
+RL.18.RoadMarking.47 = 46.04 1 0 1 -2.44 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.47.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.47.PointList:
+	0 0
+	0 -5.8
+RL.18.RoadMarking.48.ID = 177 18
+RL.18.RoadMarking.48 = 46.04 1 0 1 2.44 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.48.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.48.PointList:
+	0 0
+	0 5.8
+RL.18.RoadMarking.49.ID = 176 18
+RL.18.RoadMarking.49 = 43.2 1 0 1 2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.49.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.49.PointList:
+	0 0
+	0 5.74
+RL.18.RoadMarking.50.ID = 153 18
+RL.18.RoadMarking.50 = 43.2 1 0 1 -2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.50.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.50.PointList:
+	0 0
+	0 -5.74
+RL.18.RoadMarking.51.ID = 172 18
+RL.18.RoadMarking.51 = 40.3 1 0 1 2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.51.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.51.PointList:
+	0 0
+	0 5.74
+RL.18.RoadMarking.52.ID = 152 18
+RL.18.RoadMarking.52 = 40.3 1 0 1 -2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.52.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.52.PointList:
+	0 0
+	0 -5.74
+RL.18.RoadMarking.53.ID = 171 18
+RL.18.RoadMarking.53 = 37.4 1 0 1 2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.53.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.53.PointList:
+	0 0
+	0 5.74
+RL.18.RoadMarking.54.ID = 151 18
+RL.18.RoadMarking.54 = 37.4 1 0 1 -2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.54.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.54.PointList:
+	0 0
+	0 -5.74
+RL.18.RoadMarking.55.ID = 170 18
+RL.18.RoadMarking.55 = 34.5 1 0 1 2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.55.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.55.PointList:
+	0 0
+	0 5.74
+RL.18.RoadMarking.56.ID = 150 18
+RL.18.RoadMarking.56 = 34.5 1 0 1 -2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.56.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.56.PointList:
+	0 0
+	0 -5.74
+RL.18.RoadMarking.57.ID = 167 18
+RL.18.RoadMarking.57 = 31.6 1 0 1 2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.57.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.57.PointList:
+	0 0
+	0 5.74
+RL.18.RoadMarking.58.ID = 149 18
+RL.18.RoadMarking.58 = 31.6 1 0 1 -2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.58.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.58.PointList:
+	0 0
+	0 -5.74
+RL.18.RoadMarking.59.ID = 148 18
+RL.18.RoadMarking.59 = 28.7 1 0 1 -2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.59.PointList:
+	0 0
+	0 -5.74
+RL.18.RoadMarking.60.ID = 166 18
+RL.18.RoadMarking.60 = 28.7 1 0 1 2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.60.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.60.PointList:
+	0 0
+	0 5.74
+RL.18.RoadMarking.61.ID = 147 18
+RL.18.RoadMarking.61 = 25.8 1 0 1 -2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.61.PointList:
+	0 0
+	0 -5.74
+RL.18.RoadMarking.62.ID = 163 18
+RL.18.RoadMarking.62 = 25.8 1 0 1 2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.62.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.62.PointList:
+	0 0
+	0 5.74
+RL.18.RoadMarking.63.ID = 162 18
+RL.18.RoadMarking.63 = 22.9 1 0 1 2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.63.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.63.PointList:
+	0 0
+	0 5.74
+RL.18.RoadMarking.64.ID = 146 18
+RL.18.RoadMarking.64 = 22.9 1 0 1 -2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.64.PointList:
+	0 0
+	0 -5.74
+RL.18.RoadMarking.65.ID = 145 18
+RL.18.RoadMarking.65 = 20 1 0 1 -2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.65.PointList:
+	0 0
+	0 -5.74
+RL.18.RoadMarking.66.ID = 161 18
+RL.18.RoadMarking.66 = 20 1 0 1 2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.66.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.66.PointList:
+	0 0
+	0 5.74
+RL.18.RoadMarking.67.ID = 160 18
+RL.18.RoadMarking.67 = 17.1 1 0 1 2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.67.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.67.PointList:
+	0 0
+	0 5.74
+RL.18.RoadMarking.68.ID = 131 18
+RL.18.RoadMarking.68 = 17.1 1 0 1 -2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.68.PointList:
+	0 0
+	0 -5.74
+RL.18.RoadMarking.69.ID = 159 18
+RL.18.RoadMarking.69 = 14.2 1 0 1 2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.69.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.69.PointList:
+	0 0
+	0 5.74
+RL.18.RoadMarking.70.ID = 128 18
+RL.18.RoadMarking.70 = 14.2 1 0 1 -2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.70.PointList:
+	0 0
+	0 -5.74
+RL.18.RoadMarking.71.ID = 127 18
+RL.18.RoadMarking.71 = 11.3 1 0 1 -2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.71.PointList:
+	0 0
+	0 -5.74
+RL.18.RoadMarking.72.ID = 178 18
+RL.18.RoadMarking.72 = 11.3 1 0 1 2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.72.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.72.PointList:
+	0 0
+	0 5.74
+RL.18.RoadMarking.73.ID = 118 18
+RL.18.RoadMarking.73 = 8.4 1 0 1 -2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.73.PointList:
+	0 0
+	0 -5.74
+RL.18.RoadMarking.74.ID = 144 18
+RL.18.RoadMarking.74 = 8.3 1 0 1 2.5 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.74.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.74.PointList:
+	0 0
+	0 5.74
+RL.18.RoadMarking.75.ID = 117 18
+RL.18.RoadMarking.75 = 5.56 1 0 1 -2.44 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.75.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.75.PointList:
+	0 0
+	0 -5.8
+RL.18.RoadMarking.76.ID = 116 18
+RL.18.RoadMarking.76 = 5.56 1 0 1 2.44 100 0.12 0 1 1 0 2 4 1 1 0 ""
+RL.18.RoadMarking.76.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.18.RoadMarking.76.PointList:
+	0 0
+	0 5.8
+RL.18.RoadMarking.77.ID = 649 617
+RL.18.RoadMarking.77 = 0 0 0 1 0 1 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.18.RoadMarking.78.ID = 949 771
+RL.18.RoadMarking.78 = 0 0 0 1 0 -1 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.18.TrafficBarrier.0.ID = 363 59
+RL.18.TrafficBarrier.0 = 0 0 0 1 0 1 0.205 0.75 1 0 3 1 1 0 2 0 0
+RL.18.TrafficBarrier.1.ID = 324 494
+RL.18.TrafficBarrier.1 = 0 0 0 1 0 -1 0.205 0.75 1 0 3 1 1 0 2 0 0
+RL.18.TrafficBarrier.2.ID = 133 502
+RL.18.TrafficBarrier.2 = 11.593 1 11.6 0 0 1 0.205 0.75 1 0 3 1 1 0 2 0 0
+RL.18.TrafficBarrier.3.ID = 361 518
+RL.18.TrafficBarrier.3 = 0 0 0 1 0 1 0.205 0.75 1 0 3 1 1 0 2 0 0
+RL.18.TrafficBarrier.4.ID = 134 510
+RL.18.TrafficBarrier.4 = 0 0 0 1 0 -1 0.205 0.75 1 0 3 1 1 0 2 0 0
+RL.42.GuidePost.0.ID = 119 42
+RL.42.GuidePost.0 = 40.381 0 214.786 0 0.5 1 50
+RL.42.GuidePost.1.ID = 120 42
+RL.42.GuidePost.1 = 40.381 0 214.786 0 -0.5 -1 50
+RL.42.RoadPainting.0.ID = 121 42
+RL.42.RoadPainting.0 = 8.75 0 0 2 5 0.877 180 ""
+RL.42.RoadPainting.0.Material.0 = Textures/Ground/LaneArrow_StraightRight_DEU.png 0 0 0 0 0 0 1 1 0 0 0
+RL.42.RoadPainting.1.ID = 455 42
+RL.42.RoadPainting.1 = 704 0 0 -3 5 0.5 0 ""
+RL.42.RoadPainting.1.Material.0 = Textures/Ground/LaneArrow_Straight_DEU.png 0 0 0 0 0 0 1 1 0 0 0
+RL.42.RoadPainting.2.ID = 457 42
+RL.42.RoadPainting.2 = 704 0 0 -2 5 0.723 0 ""
+RL.42.RoadPainting.2.Material.0 = Textures/Ground/LaneArrow_Left_DEU.png 0 0 0 0 0 0 1 1 0 0 0
+RL.42.SignPlate.0.ID = 122 42
+RL.42.SignPlate.0 = 5 0 8 0 1 3.32 0 1 2 ""
+RL.42.SignPlate.0.Material.0 = Textures/IPG/Logo_IPG_01.jpg 0 0 0 0 0 0 1 1 0 0 0
+RL.42.TreeStrip.0.ID = 123 42
+RL.42.TreeStrip.0 = 0 0 0 1 -3 -1 10 5 1 1 0.5 0.5
+RL.42.TreeStrip.1.ID = 25 42
+RL.42.TreeStrip.1 = 135 0 250 1 3 1 10 5 1 1 0.5 0.5
+RL.42.TreeStrip.2.ID = 53 42
+RL.42.TreeStrip.2 = 135 0 290 1 13 1 30 5 1 1 0.5 0.5
+RL.42.TreeStrip.3.ID = 40 42
+RL.42.TreeStrip.3 = 333.958 0 378.754 1 -3 -1 10 5 1 1 0.5 0.5
+RL.42.TreeStrip.4.ID = 28 42
+RL.42.TreeStrip.4 = 333.958 0 378.754 1 3 1 10 5 1 1 0.5 0.5
+RL.42.TreeStrip.5.ID = 83 42
+RL.42.TreeStrip.5 = 390 0 300 1 45 1 30 5 1 1 0.5 0.5
+RL.42.TreeStrip.6.ID = 39 42
+RL.42.TreeStrip.6 = 250 1 10 1 3 1 7 5 1 1 0.5 0.5
+RL.42.TreeStrip.7.ID = 125 42
+RL.42.TreeStrip.7 = 201 1 65 1 10 1 22 7 1 1 0.5 0.5
+RL.42.RoadMarking.0.ID = 48 47
+RL.42.RoadMarking.0 = 0 0 0 1 0 1 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.42.RoadMarking.1.ID = 55 51
+RL.42.RoadMarking.1 = 4 0 0 1 0 -1 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.42.RoadMarking.2.ID = 60 56
+RL.42.RoadMarking.2 = 26.249 1 30 0 0 -1 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.42.RoadMarking.3.ID = 63 46
+RL.42.RoadMarking.3 = 4 0 0.184 1 0 0 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.42.RoadMarking.4.ID = 66 65
+RL.42.RoadMarking.4 = 0 0 0 1 0 1 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.42.RoadMarking.5.ID = 70 69
+RL.42.RoadMarking.5 = 0 0 0 1 0 -1 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.42.RoadMarking.6.ID = 73 64
+RL.42.RoadMarking.6 = 0 0 0 1 0 0 0.12 0 2 0 0 2 4 1 1 0 ""
+RL.42.RoadMarking.7.ID = 346 31
+RL.42.RoadMarking.7 = 40 1 36 0 0 1 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.42.RoadMarking.8.ID = 376 368
+RL.42.RoadMarking.8 = 40 1 15 1 0 -1 0.25 0 2 0 0 1 1 1 1 0 ""
+RL.42.RoadMarking.9.ID = 375 16
+RL.42.RoadMarking.9 = 40 1 36 0 0 0 0.25 0 1 0 0 2 4 1 1 0 ""
+RL.42.RoadMarking.10.ID = 266 388
+RL.42.RoadMarking.10 = 39.813 1 36 0 0 -1 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.42.RoadMarking.11.ID = 349 368
+RL.42.RoadMarking.11 = 14.2 1 4 1 0 -1 0.25 0 1 0 0 2 4 1 1 0 ""
+RL.42.RoadMarking.12.ID = 437 42
+RL.42.RoadMarking.12 = 4.25 1 0 1 -3 100 0.5 0 1 1 0 2 4 1 1 0 ""
+RL.42.RoadMarking.12.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.42.RoadMarking.12.PointList:
+	0 0
+	0 3
+RL.42.Mount.0.ID = 371 42
+RL.42.Mount.0 = 50 2 1 1 2 1 0 0 0 0 3.82449998855591
+RL.42.Mount.0.0.ID = 374
+RL.42.Mount.0.0 = 0 3.5 -0 0 0 0 0 98 -1 1 PriorityRoad M "" 50 0 0 - - "" 0 0 0 - - "" 0 0 0
+RL.42.Mount.0.0.Size = 0.848999977111816 0.848999977111816
+RL.42.Mount.0.1.ID = 372
+RL.42.Mount.0.1 = 0 2.75 -0 0 0 0 0 98 -1 1 SpeedLimit M "" 50 0 0 - - "" 0 0 0 - - "" 0 0 0
+RL.42.Mount.0.1.Size = 0.600000023841858 0.600000023841858
+RL.42.Mount.1.ID = 451 42
+RL.42.Mount.1 = 660 0 -1 -1 2 1 0 0 0 0 3.82449998855591
+RL.42.Mount.1.0.ID = 454
+RL.42.Mount.1.0 = 0 3.5 0 0 0 0 0 98 1 1 PriorityRoad M "" 50 0 0 - - "" 0 0 0 - - "" 0 0 0
+RL.42.Mount.1.0.Size = 0.848999977111816 0.848999977111816
+RL.42.Mount.1.1.ID = 453
+RL.42.Mount.1.1 = 0 2.75 0 0 0 0 0 98 1 1 SpeedLimit M "" 50 0 0 - - "" 0 0 0 - - "" 0 0 0
+RL.42.Mount.1.1.Size = 0.600000023841858 0.600000023841858
+RL.42.Marker.0.ID = 141 42
+RL.42.Marker.0.Type = DrvSpeed
+RL.42.Marker.0.Param = 55 0 -1 50 kmh
+RL.42.Marker.1.ID = 138 42
+RL.42.Marker.1.Type = DrvSpeed
+RL.42.Marker.1.Param = 55 1 1 50 kmh
+RL.129.RoadMarking.0.ID = 136 129
+RL.129.RoadMarking.0 = 0 0 0 1 0 0 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.169.RoadMarking.0.ID = 188 175
+RL.169.RoadMarking.0 = 0 0 0 1 0 1 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.169.RoadMarking.1.ID = 226 215
+RL.169.RoadMarking.1 = 0 0 0 1 0 -1 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.169.RoadMarking.2.ID = 367 169
+RL.169.RoadMarking.2 = 20 0 0 1 -2.5 100 0.5 0 1 1 0 2 4 1 1 0 ""
+RL.169.RoadMarking.2.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.169.RoadMarking.2.PointList:
+	0 0
+	0 2.5
+RL.169.Mount.0.ID = 209 169
+RL.169.Mount.0 = 9 0 0.5 1 2 1 0 0 0 0 2.95000001192093
+RL.169.Mount.0.0.ID = 364
+RL.169.Mount.0.0 = 0 2.75 -0 0 0 0 0 98 -1 1 ParkingLot M "" 0 0 0 - - "" 0 0 0 - - "" 0 0 0
+RL.169.Mount.0.0.Size = 0.600000023841858 0.600000023841858
+RL.169.Mount.0.1.ID = 210
+RL.169.Mount.0.1 = 0 2.2 -0 0 0 0 0 98 -1 1 SpeedLimit S "" 10 0 0 - - "" 0 0 0 - - "" 0 0 0
+RL.169.Mount.0.1.Size = 0.419999986886978 0.419999986886978
+RL.169.Mount.1.ID = 365 169
+RL.169.Mount.1 = 20 0 -1 -1 1 1 0 0 0 0 2.28949999213219
+RL.169.Mount.1.0.ID = 366
+RL.169.Mount.1.0 = 0 2 0 0 0 0 0 98 1 1 GiveWay M "" 0 0 0 - - "" 0 0 0 - - "" 0 0 0
+RL.169.Mount.1.0.Size = 0.778999984264374 0.899999976158142
+RL.242.GeoObject.0.ID = 200 242
+RL.242.GeoObject.0 = 4.85 0 4.85 0 1.7 -1 2 0 4 0 -85 1 1 1 0 3D/StreetFurniture/Bicycle_01_1.mobj
+RL.242.GeoObject.0.SensorBBox = 1 0 1.82 -0.36 0.36 0 1.15
+RL.242.GeoObject.1.ID = 196 242
+RL.242.GeoObject.1 = 5.6 0 5.6 0 -0.3 -1 2 0 0 0 90 1 1 1 0 3D/StreetFurniture/BicycleParking_01_1.mobj
+RL.242.GeoObject.1.SensorBBox = 1 0 0.32 -0.81 0.81 0 0.42
+RL.242.GeoObject.2.ID = 201 242
+RL.242.GeoObject.2 = 5.8 0 5.8 0 1.83 -1 2 0 -5 0 -92 1 1 1 0 3D/StreetFurniture/Bicycle_02_1.mobj
+RL.242.GeoObject.2.SensorBBox = 1 0 1.94 -0.28 0.28 0 1.39
+RL.242.GeoObject.3.ID = 197 242
+RL.242.GeoObject.3 = 8.5 0 11 0 -0.6 -1 2 0 0 0 90 1 1 1 0 3D/StreetFurniture/Bench_03.mobj
+RL.242.GeoObject.3.SensorBBox = 1 0 0.56 -0.73 0.73 0 0.49
+RL.242.GeoObject.4.ID = 198 242
+RL.242.GeoObject.4 = 13 0 13 0 -0.5 -1 2 0 0 0 90 1 1 1 0 3D/StreetFurniture/Dustbin_04_1.mobj
+RL.242.GeoObject.4.SensorBBox = 1 0 0.42 -0.22 0.22 0 1.23
+RL.242.GeoObject.5.ID = 186 242
+RL.242.GeoObject.5 = 16 0 16 0 -1 -1 2 0 0 0 90 1 1 1 0 3D/StreetFurniture/StreetLight_02_1.mobj
+RL.242.GeoObject.5.SensorBBox = 1 0 0.51 -0.25 0.25 -0.01 3.09
+RL.242.RoadMarking.0.ID = 260 248
+RL.242.RoadMarking.0 = 0 0 0 1 0 1 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.242.RoadMarking.1.ID = 286 274
+RL.242.RoadMarking.1 = 0 0 0 1 0 -1 0.12 0 2 0 0 1 1 1 1 0 ""
+RL.242.RoadMarking.2.ID = 800 529
+RL.242.RoadMarking.2 = 4 0 4 1 0 -1 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.325.RoadMarking.0.ID = 327 325
+RL.325.RoadMarking.0 = 0 0 0 1 0 0 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.325.RoadMarking.0.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.331.RoadMarking.0.ID = 333 331
+RL.331.RoadMarking.0 = 0 0 0 1 0 0 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.331.RoadMarking.0.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.334.RoadMarking.0.ID = 339 334
+RL.334.RoadMarking.0 = 0 0 0 1 0 0 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.334.RoadMarking.0.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 0 0 0 0 0
+RL.415.GeoObject.0.ID = 440 415
+RL.415.GeoObject.0 = 0.532 0 0.532 0 -32.99 100 0 0 0 0 0 1 1 1 0 3D/Vegetation/Bush_01.mobj
+RL.415.GeoObject.0.SensorBBox = 1 -0.9 2.48 -1.8 1.4 0 2.74
+RL.415.GeoObject.1.ID = 441 415
+RL.415.GeoObject.1 = 4.1 0 4.1 0 -15.5 0 0 0 0 0 0 1 1 1 0 3D/Buildings/Office_06.mobj
+RL.415.GeoObject.1.SensorBBox = 1 0 41.17 -11.8 12.3 -2 18.94
+RL.415.GeoObject.2.ID = 30 415
+RL.415.GeoObject.2 = 5 0 140 0 1 1 12 0 0 0 0 1 1 1 0 3D/StreetFurniture/StreetLight_02_1.mobj
+RL.415.GeoObject.2.SensorBBox = 1 0 0.51 -0.25 0.25 -0.01 3.09
+RL.415.GeoObject.3.ID = 442 415
+RL.415.GeoObject.3 = 122.6 0 122.6 0 5.4 100 0 0 0 0 0 1 1 1 0 3D/Vegetation/Bush_01.mobj
+RL.415.GeoObject.3.SensorBBox = 1 -0.9 2.48 -1.8 1.4 0 2.74
+RL.415.GeoObject.4.ID = 443 415
+RL.415.GeoObject.4 = 126.7 0 126.7 0 6.1 100 0 0 0 0 170 1 1 1 0 3D/Vegetation/Bush_01.mobj
+RL.415.GeoObject.4.SensorBBox = 1 -0.9 2.48 -1.8 1.4 0 2.74
+RL.415.GeoObject.5.ID = 444 415
+RL.415.GeoObject.5 = 130.7 0 130.7 0 6.55 100 0 0 0 0 10 1 1 1 0 3D/Vegetation/Bush_01.mobj
+RL.415.GeoObject.5.SensorBBox = 1 -0.9 2.48 -1.8 1.4 0 2.74
+RL.415.GeoObject.6.ID = 445 415
+RL.415.GeoObject.6 = 136.6 0 136.6 0 6 100 0 0 0 0 30 1 1 1 0 3D/Vegetation/Bush_01.mobj
+RL.415.GeoObject.6.SensorBBox = 1 -0.9 2.48 -1.8 1.4 0 2.74
+RL.415.GeoObject.7.ID = 446 415
+RL.415.GeoObject.7 = 141.7 0 141.7 0 5.3 100 0 0 0 0 45 1 1 1 0 3D/Vegetation/Bush_01.mobj
+RL.415.GeoObject.7.SensorBBox = 1 -0.9 2.48 -1.8 1.4 0 2.74
+RL.448.GeoObject.0.ID = 29 448
+RL.448.GeoObject.0 = 5 0 5 0 1 1 0 0 0 0 0 1 1 1 0 3D/StreetFurniture/StreetLight_02_1.mobj
+RL.448.GeoObject.0.SensorBBox = 1 0 0.51 -0.25 0.25 -0.01 3.09
+RL.448.GeoObject.1.ID = 467 448
+RL.448.GeoObject.1 = 5 1 5 1 0.417 2 2 0 0 0 90 1 1 1 0 3D/StreetFurniture/BollardCity_07_1.mobj
+RL.448.GeoObject.1.SensorBBox = 1 0 0.12 -0.06 0.06 0 1
+RL.448.GeoObject.2.ID = 468 448
+RL.448.GeoObject.2 = 5 1 5 1 -0.417 2 2 0 0 0 90 1 1 1 0 3D/StreetFurniture/BollardCity_07_1.mobj
+RL.448.GeoObject.2.SensorBBox = 1 0 0.12 -0.06 0.06 0 1
+RL.633.RoadMarking.0.ID = 794 633
+RL.633.RoadMarking.0 = 0 0 0 1 0 0 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.801.RoadMarking.0.ID = 803 801
+RL.801.RoadMarking.0 = 0 0 0 1 0 0 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.804.RoadMarking.0.ID = 806 804
+RL.804.RoadMarking.0 = 0 0 0 1 0 0 0.12 0 1 0 0 2 4 1 1 0 ""
+RL.810.RoadMarking.0.ID = 812 810
+RL.810.RoadMarking.0 = 0 0 0 1 0 0 0.12 0 1 0 0 2 4 1 1 0 ""
+MaxUsedObjId = 12626

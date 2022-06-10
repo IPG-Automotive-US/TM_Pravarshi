@@ -1,0 +1,9 @@
+#INFOFILE1.1 - Do not remove this line!
+FileIdent = GUI-Config 10.0
+TM.Exe = TruckMaker.linux64
+TM.Args =
+TM.Exe.History:
+	TruckMaker.linux64
+TM.Args.History:
+	""
+GPUParameters.FName =

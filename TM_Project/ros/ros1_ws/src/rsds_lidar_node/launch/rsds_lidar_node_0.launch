@@ -1,0 +1,6 @@
+<launch>
+    <group ns="/rsds_lidar_node_0">
+        <param name="tcp_port" type="int" value="2210" />
+        <node name="rsds_lidar_node_0" pkg="rsds_lidar_node" type="rsds_lidar_node" />
+    </group>
+</launch>
