@@ -1,5 +1,5 @@
 #******************************************************************************
-#**  CarMaker - Version 10.0
+#**  CarMaker - Version 10.0.1
 #**  Vehicle Dynamics Simulation Toolkit
 #**
 #**  Copyright (C)   IPG Automotive GmbH
@@ -15,7 +15,7 @@
 
 include /opt/ipg/carmaker/linux64-10.0.1/include/MakeDefs.linux64
 
-APP_VER =		"Truck_Generic with CMRosIF"
+APP_VER =		"Truck_Generic <insert.your.version.no>"
 APP_NAME =		TruckMaker.$(ARCH)$(EXE_EXT)
 
 #OPT_CFLAGS =		-g -O1
@@ -23,14 +23,6 @@ APP_NAME =		TruckMaker.$(ARCH)$(EXE_EXT)
 LD_LIBS =		$(TRUCK_LIB) \
 			$(CARMAKER_LIB) $(DRIVER_LIB) $(ROAD_LIB) $(TIRE_LIB)
 OBJS =			CM_Main.o CM_Vehicle.o User.o
-
-# CarMaker extension CMRosIF (provided by IPG)
-DEF_CFLAGS      += -DWITH_CMROSIF
-LD_LIBS_OS      += -lCMRosIF-$(ARCH)
-LDFLAGS         += -L./../lib/
-LDFLAGS         += -Wl,-rpath,'$$ORIGIN/../lib/'
-INC_CFLAGS      += -I../include
-CFLAGS          += -rdynamic
 
 # Prepend local include/library directory to include path:
 # PREINC_CFLAGS +=		-I../include -I../lib/$(ARCH) -I../lib
@@ -51,7 +43,7 @@ CFLAGS          += -rdynamic
 ### END (Linking with RTW-built Simulink models)
 
 
-default:	clean $(APP_NAME) install_cp
+default:	$(APP_NAME)
 $(APP_NAME):	$(OBJS_$(ARCH)) $(OBJS) $(LD_LIBS_MK) app_tmp.o
 	$(QECHO) " LD     $@"
 	$Q $(CC) $(CFLAGS) $(LDFLAGS) -o $@ \
@@ -62,16 +54,6 @@ $(APP_NAME):	$(OBJS_$(ARCH)) $(OBJS) $(LD_LIBS_MK) app_tmp.o
 
 install: $(APP_NAME)
 	$(INSTALL_APP) $(APP_NAME) $(ARCH)
-
-# Warning: Only Workaround for this example!
-# - "install" creates copies with timestamp
-# - here copy only for development
-# - alternatively change CM executable directory
-#   -> take care or relative paths for shared libraries!
-# - currently no strip, ...
-install_cp: $(APP_NAME)
-	mkdir -p ./../bin/
-	cp -f --parents $(APP_NAME) ./../bin/
 
 clean:
 	-rm -f 	*~ *% *.o core

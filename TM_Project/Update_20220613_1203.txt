@@ -1,0 +1,79 @@
+Logfile - Project update to TruckMaker 10.0.1
+===============================================================================
+
+Start: 2022-06-13 12:03:50
+
+Cleaning up temporary files...
+  Deleting temporary TestRun, Vehicle and Trailer files
+  Deleting temporary files in road cache
+  >> Finished.
+
+Creating source code backup ...
+  src_tm/CM_Main.c
+  -  Info: Copied file to src_tm/CM_Main_20220613_1203.c
+  src_tm/CM_Vehicle.c
+  -  Info: Copied file to src_tm/CM_Vehicle_20220613_1203.c
+  src_tm/IO.c
+  -  Info: Copied file to src_tm/IO_20220613_1203.c
+  src_tm/IOVec.h
+  -  Info: Copied file to src_tm/IOVec_20220613_1203.h
+  src_tm/Makefile
+  -  Info: Copied file to src_tm/Makefile_20220613_1203
+  src_tm/User.c
+  -  Info: Copied file to src_tm/User_20220613_1203.c
+  src_tm/User.h
+  -  Info: Copied file to src_tm/User_20220613_1203.h
+  src_tm/app_tmp.c
+  -  Info: Copied file to src_tm/app_tmp_20220613_1203.c
+  8 source code files have been copied
+  >> Finished.
+
+Deleting old unmodified template files...
+  0 Files deleted, 0 errors occured
+  >> Finished.
+
+Copying new files to project directory...
+  88 Files copied, 0 errors occured
+  >> Finished.
+
+Converting Simulink models...
+  0 Files converted, 0 errors occured
+  >> Finished.
+
+Converting FMUs...
+  0 Files converted, 0 errors occured
+  >> Finished.
+
+Converting TestRuns and TestSeries...
+  0 Files converted, 0 errors occured
+  >> Finished.
+
+Converting IPGRoad files...
+  0 Files converted, 0 errors occured
+  >> Finished.
+
+Converting Vehicle files...
+  0 Files converted, 0 errors occured
+  >> Finished.
+
+Converting Trailer files...
+  0 Files converted, 0 errors occured
+  >> Finished.
+
+Converting Sensor files...
+  0 Files converted, 0 errors occured
+  >> Finished.
+
+Converting Tire files...
+  0 Files converted, 0 errors occured
+  >> Finished.
+
+Converting configuration files...
+  0 Files converted, 0 errors occured
+  >> Finished.
+
+-------------------------------------------------------------------------------
+Update finished successfully. No errors occured
+-------------------------------------------------------------------------------
+
+End: 2022-06-13 12:04:01

@@ -48,20 +48,18 @@ static const char *CompileLibs[] = {
 static const char *CompileFlags[] = {
     "-m64 -fPIC -O3 -DNDEBUG -DLINUX -DLINUX64 -D_GNU_SOURCE",
     "-D_FILE_OFFSET_BITS=64 -DCM_NUMVER=100001",
-    "-DWITH_CMROSIF",
-    "-I/opt/ipg/carmaker/linux64-10.0.1/include",
-    "-I../include -Wall -Wimplicit -Wmissing-prototypes",
-    "-rdynamic",
+    "-I/opt/ipg/carmaker/linux64-10.0.1/include -Wall",
+    "-Wimplicit -Wmissing-prototypes",
     NULL
 };
 
 
 tAppStartInfo   AppStartInfo = {
-    "Truck_Generic with CMRosIF",          /* App_Version         */
-    "6",          /* App_BuildVersion    */
-    "linux",     /* App_CompileUser     */
-    "linux",         /* App_CompileSystem   */
-    "2021-07-09 14:24:14",  /* App_CompileTime */
+    "Truck_Generic <insert.your.version.no>",          /* App_Version         */
+    "8",          /* App_BuildVersion    */
+    "pravarshi",     /* App_CompileUser     */
+    "pravarshi-lenovo-legion-7-15imh05",         /* App_CompileSystem   */
+    "2022-06-13 12:04:10",  /* App_CompileTime */
 
     CompileFlags,                /* App_CompileFlags  */
     CompileLibs,                 /* App_Libs          */

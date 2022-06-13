@@ -21,7 +21,7 @@ LINE=$((AWS_BATCH_JOB_ARRAY_INDEX + 1))
 FileName=$(sed -n ${LINE}p log.txt)
 echo ${FileName}
 export FileName
-./src/TruckMaker.linux64 ${FileName} -v -screen -dstore
+./src_tm/TruckMaker.linux64 ${FileName} -v -screen -dstore
 
 aws s3 cp /home/CM_Projects/SimOutput/ ${RESULT_FILE_S3_URL} --recursive --exclude "*" --include "*.dat" 
 aws s3 cp /home/CM_Projects/SimOutput/ ${RESULT_FILE_S3_URL} --recursive --exclude "*" --include "*.dat.info" 

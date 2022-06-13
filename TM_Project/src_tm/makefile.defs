@@ -1,16 +1,16 @@
 # first include path has to be the include path of MakeDefs!!!
 
-include $(CM_DIR)/include/${SUB_MakeDefs}.linux64
+include $(CM_DIR)/include/MakeDefs.linux64
 
-APP_VER = ${SUB_XMAKER}_Generic <insert.your.version.no>
-APP_NAME = ${SUB_XMAKER}Maker.$(ARCH)$(EXE_EXT)
+APP_VER = Truck_Generic <insert.your.version.no>
+APP_NAME = TruckMaker.$(ARCH)$(EXE_EXT)
 
 ifeq ($(DEBUG),true)
 	OPT_CFLAGS = -g -O1
 endif
 
 
-LD_LIBS = ${SUB_XMAKER_LIB} ${SUB_CARMAKER_LIB} ${SUB_DRIVER_LIB} ${SUB_ROAD_LIB} ${SUB_TIRE_LIB}
+LD_LIBS = $(TRUCK_LIB) $(CARMAKER_LIB) $(DRIVER_LIB) $(ROAD_LIB) $(TIRE_LIB)
 OBJS_xeno = $(OBJS_CANIOGEN) $(OBJS_CANIOGEN_USER)
 OBJS_linux =
 OBJS_win32 =
