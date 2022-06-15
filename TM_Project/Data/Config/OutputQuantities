@@ -60,6 +60,7 @@ DStore.Quantities.normal:
 	Car.vFR
 	Car.vRL
 	Car.vRR
+	Criteria
 	Sensor.Object.RadarL.relvTgt.NearPnt.ds_p
 	DM.Brake
 	DM.BrakeLever

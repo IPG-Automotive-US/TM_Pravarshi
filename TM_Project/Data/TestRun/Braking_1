@@ -1,35 +1,34 @@
 #INFOFILE1.1 - Do not remove this line!
 FileIdent = CarMaker-TestRun 10
-FileCreator = TruckMaker 10.0.1
+FileCreator = CarMaker 10.0.1
 Description:
-	Demonstration of the 'Stop' and 'Driving backwards' maneuvers.
-FileClass.Update = 10.0
+	Straight line braking maneuver on high mue
+	Measurement of brake distance. See DM.ManDist at the end of last Minimaneuver.
 Vehicle = Demo_IPG_CompanyCar
 Trailer =
 Tire.0 =
 Tire.1 =
 Tire.2 =
 Tire.3 =
-Tire.4 =
-Tire.5 =
-Tire.6 =
-Tire.7 =
 Snapshot.TimeLimit =
 Snapshot.DistLimit =
-VehicleLoad.0.mass = 0
-VehicleLoad.0.pos = 0.0 0.0 0.0
+VehicleLoad.0.mass = 70
+VehicleLoad.0.pos = 2.0 0.35 0.75
 VehicleLoad.1.mass = 0
-VehicleLoad.1.pos = 0.0 0.0 0.0
+VehicleLoad.1.pos = 0 0 0
 VehicleLoad.2.mass = 0
-VehicleLoad.2.pos = 0.0 0.0 0.0
+VehicleLoad.2.pos = 0 0 0
 VehicleLoad.3.mass = 0
-VehicleLoad.3.pos = 0.0 0.0 0.0
+VehicleLoad.3.pos = 0 0 0
 TrailerLoad.0.mass = 0
-TrailerLoad.0.pos = 0.0 0.0 0.0
+TrailerLoad.0.pos = 0 0 0
 TrailerLoad.1.mass = 0
-TrailerLoad.1.pos = 0.0 0.0 0.0
+TrailerLoad.1.pos = 0 0 0
 TrailerLoad.2.mass = 0
-TrailerLoad.2.pos = 0.0 0.0 0.0
+TrailerLoad.2.pos = 0 0 0
+DrivMan.Cmds:
+	(first() ? Qu::BrakeDist=0); DM.ManNo>0 ? BrakeDist=Delta2Ev(Car.Road.sRoad, change(DM.Brake), Car.v <=0.01)
+	(first() ? Qu::Criteria=1)
 DrivMan.Init.Velocity = 0
 DrivMan.Init.GearNo = 0
 DrivMan.Init.SteerAng = 0
@@ -37,35 +36,24 @@ DrivMan.Init.LaneOffset = 0
 DrivMan.Init.OperatorActive = 1
 DrivMan.Init.OperatorState = drive
 DrivMan.VhclOperator.Kind = IPGOperator 1
-DrivMan.nDMan = 7
-DrivMan.0.Info = Drive forward for 10s
-DrivMan.0.TimeLimit = 10.0
+DrivMan.nDMan = 2
+DrivMan.0.Info = Accelerating
+DrivMan.0.TimeLimit = 90.0
+DrivMan.0.EndCondition = Car.Road.sRoad>=650
 DrivMan.0.LongDyn = Driver 1 0
 DrivMan.0.LatDyn = Driver 0
-DrivMan.1.Info = Stop the vehicle with defined deceleration
-DrivMan.1.TimeLimit = 10.0
-DrivMan.1.LongDyn = Stop 6.0 0
+DrivMan.1.Info = Braking to standstill
+DrivMan.1.TimeLimit = 15.0
+DrivMan.1.EndCondition = Car.v <=0.001
+DrivMan.1.Cmds:
+	Eval (Car.v<=0.001 && BrakeDist < 27) ? (Qu::Criteria=0)
+	Eval (Car.v<=0.001 && BrakeDist > 27) ? (Qu::Criteria=1)
+DrivMan.1.Clutch = 1.0 0.0 0.2 abs
+DrivMan.1.Gas = 0.0 0.0 0.2 abs
+DrivMan.1.Brake = 0.6 0.0 0.2 abs
+DrivMan.1.BrakePark = 0.0 0.0 0.2 abs
+DrivMan.1.LongDyn = Manual
 DrivMan.1.LatDyn = Driver 0
-DrivMan.2.Info = Drive forward for 10s
-DrivMan.2.TimeLimit = 10.0
-DrivMan.2.LongDyn = Driver 1 0
-DrivMan.2.LatDyn = Driver 0
-DrivMan.3.Info = Stop the vehicle with defined deceleration
-DrivMan.3.TimeLimit = 5.0
-DrivMan.3.LongDyn = Stop 6.0 0
-DrivMan.3.LatDyn = Driver 0
-DrivMan.4.Info = Drive backwards for 10s
-DrivMan.4.TimeLimit = 10.0
-DrivMan.4.LongDyn = Backward 3.0 20
-DrivMan.4.LatDyn = Driver 0
-DrivMan.5.Info = Stop the vehicle
-DrivMan.5.TimeLimit = 5.0
-DrivMan.5.LongDyn = Stop 4.0 0
-DrivMan.5.LatDyn = Driver 0
-DrivMan.6.Info = Drive forward for 999s or till end of road
-DrivMan.6.TimeLimit = 999.0
-DrivMan.6.LongDyn = Driver 1 0
-DrivMan.6.LatDyn = Driver 0
 Traffic.IFF.FName =
 Traffic.IFF.Time.Name =
 Traffic.N = 0
@@ -113,49 +101,59 @@ Road.LibVersion = 10.0.1
 Road.Country = DEU
 Road.nLinks = 1
 Road.nJunctions = 0
-Road.nObjects = 30
+Road.nObjects = 36
 Road.nRoutes = 1
-Road.RoadNetworkLength = 400
-Road.BBox = -10 410 -13 13 -11 11
-Road.Route.0.Length = 400
+Road.RoadNetworkLength = 1300
+Road.BBox = -10 1950 -59.2284435436145 106.270190917802 -11 11
+Road.Route.0.Length = 1300
 Road.RST.Unit = kmh
 Road.RST = 50 100 -1 30 70 50 -1 -1
 Road.Movie = 0.2 1 0.02 1.5 1.5 1 1
 Road.PathMode = -1
 Road.Link.0.ID = 0
 Road.Link.0.Node0 = 0 0 0 0
-Road.Link.0.Node1 = 400 0 0 0
+Road.Link.0.Node1 = 1300 0 0 0
 Road.Link.0.RST = Undefined
 Road.Link.0.RL.ID = 1
 Road.Link.0.Seg.0.ID = 2
 Road.Link.0.Seg.0.Type = Straight
-Road.Link.0.Seg.0.Param = 400 0 0 0 0 0 0 0
-Road.Link.0.LateralCenterLineOffset.ID = 8
+Road.Link.0.Seg.0.Param = 1300 0 0 0 0 0 0 0
+Road.Link.0.LateralCenterLineOffset.ID = 13
 Road.Link.0.LateralCenterLineOffset:
-	38 -1 0 0 0 2.5 -999 -999 -999
-	39 -1 0 1 0 2.5 -999 -999 -999
-Road.Link.0.LaneSection.0.ID = 3
+	46 -1 0 0 1 2.5 -999 -999 -999
+	47 -1 630 0 0 2.5 -999 -999 -999
+	48 -1 670 0 1 15 -999 -999 -999
+	49 -1 0 1 0 15 -999 -999 -999
+Road.Link.0.LaneSection.0.ID = 4
 Road.Link.0.LaneSection.0.Start = 0
-Road.Link.0.LaneSection.0.LaneL.0.ID = 6
-Road.Link.0.LaneSection.0.LaneL.0 = 2 0.5 0.5 5 0 0 0
-Road.Link.0.LaneSection.0.LaneR.0.ID = 7
-Road.Link.0.LaneSection.0.LaneR.0 = 0 5 5 0 0 0 0
-Road.Link.0.LaneSection.0.LaneR.0.ARP = 43 44 45 46 47 48
-Road.Link.0.LaneSection.0.LaneR.1.ID = 9
-Road.Link.0.LaneSection.0.LaneR.1 = 2 0.5 0.5 5 0 0 0
-Road.LanePath.0 = 29 7 2 10 0.1 0.1
-Route.0.ID = 12
+Road.Link.0.LaneSection.0.LaneL.0.ID = 10
+Road.Link.0.LaneSection.0.LaneL.0 = 2 1 1 5 0 0 0
+Road.Link.0.LaneSection.0.LaneR.0.ID = 11
+Road.Link.0.LaneSection.0.LaneR.0 = 0 5 30 0 0 0 0
+Road.Link.0.LaneSection.0.LaneR.0.ARP = 53 54 55 56 57 58
+Road.Link.0.LaneSection.0.LaneR.0.Width:
+	38 -1 630 0 0 5 0 -999 -999
+	39 -1 670 0 0 30 0 -999 -999
+Road.Link.0.LaneSection.0.LaneR.1.ID = 16
+Road.Link.0.LaneSection.0.LaneR.1 = 2 1 1 5 0 0 0
+Road.LanePath.0 = 35 11 2 10 0.1 0.1
+Route.0.ID = 6
 Route.0.Name = Route
-Route.0.DrvPath.ID = 13
+Route.0.DrvPath.ID = 7
 Route.0.DrvPath:
-	29
-Road.RL.1.RoadMarking.0.ID = 24 1
-Road.RL.1.RoadMarking.0 = 0 0 0 1 -0.1 1 0.1 0 1 0 0 9 1 1 1 4 ""
-Road.RL.1.RoadMarking.1.ID = 25 1
-Road.RL.1.RoadMarking.1 = 0 0 0 1 0.1 -1 0.1 0 1 0 0 9 1 1 1 4 ""
-Road.MaxUsedObjId = 48
+	35
+Road.RL.1.RoadMarking.0.ID = 29 1
+Road.RL.1.RoadMarking.0 = 0 0 0 1 -0.1 1 0.15 0 1 0 0 10 0 1 1 4 ""
+Road.RL.1.RoadMarking.1.ID = 30 1
+Road.RL.1.RoadMarking.1 = 0 0 0 1 0.1 -1 0.15 0 1 0 0 10 0 1 1 4 ""
+Road.RL.1.RoadMarking.2.ID = 31 1
+Road.RL.1.RoadMarking.2 = 649.85 0 650 0 0 100 5 0 1 0 0 0 0 0 1 4 ""
+Road.RL.1.Marker.0.ID = 28 1
+Road.RL.1.Marker.0.Type = DrvPylon
+Road.RL.1.Marker.0.Param = 649.925 0 0 100 1 5
+Road.MaxUsedObjId = 58
 Road.VhclStartPos.Kind = Route
-Road.VhclStartPos = 0.00 0 0
+Road.VhclStartPos = 10.00 0 0
 Road.VhclRoute = Route
 Env.StartTime.Year = 2014
 Env.StartTime.Month = 1
@@ -207,7 +205,7 @@ Env.Temp.Offset_Time:
 Driver.ParamIdent = IPGDriver 5
 Driver.Mode = std
 Driver.Long.DrivMaxSpeed = 0
-Driver.Long.CruisingSpeed = 100
+Driver.Long.CruisingSpeed = 72
 Driver.CornerCutCoef = 0.5
 Driver.ConsiderTraffic = 1
 Driver.Traffic.TimeGapMin = 1.8
@@ -223,16 +221,16 @@ Driver.Long.axMax = 3.0
 Driver.Long.axMin = -4.0
 Driver.Long.ayMax = 4.0
 Driver.Long.GGExp:
-	50 1.0 1.0
+	50 2.0 1.75
 Driver.Long.DevMax = 0.0
 Driver.Long.tReact = 0.0
 Driver.Long.TractionControl = 1
 Driver.DecShift.UseBrakePark = 0
 Driver.DecShift.tSwitchGear = 1.0
 Driver.DecShift.nEngine.Limits:
-	1500 4000
+	1000 3000
 Driver.DecShift.nEngine.Shift:
-	2000 3000
+	9999 99
 Driver.Lat.DevMax = 0.0
 Driver.Lat.tReact = 0.0
 Driver.Knowl.Long.tActionMin = 4
